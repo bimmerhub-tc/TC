@@ -1,0 +1,67 @@
+{
+  "schema": 2,
+  "components": [
+    {
+      "id": "cluster-render",
+      "kind": "tool",
+      "title": "仪表渲染器（自定义试验版）",
+      "description": "布局仍在调试；保留原厂仪表模式。",
+      "version": "99.0.4",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "requires": {
+        "mgu-deploy": "0.7.17"
+      },
+      "artifact": {
+        "name": "cluster-render@99.0.4.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/catalog/cluster-render%4099.0.4.tgz",
+        "size": 10445872,
+        "sha256": "ba3f41df540d30ae47f39e4378b4e58092d0c4580fb39c37d66440a6a45e514f"
+      }
+    },
+    {
+      "id": "waze-on-cluster",
+      "kind": "tool",
+      "title": "仪表地图服务（自定义试验版）",
+      "description": "布局仍在调试；保留原厂仪表模式。",
+      "version": "99.0.4",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "requires": {
+        "mgu-deploy": "0.7.17",
+        "cluster-render": "99.0.4"
+      },
+      "artifact": {
+        "name": "waze-on-cluster@99.0.4.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/catalog/waze-on-cluster%4099.0.4.tgz",
+        "size": 2565462,
+        "sha256": "e333830ee16a3c4adb7b257ab5308fc54ae851cff7e803e876d087544f8660f7"
+      }
+    },
+    {
+      "id": "robertn_waze_cluster",
+      "kind": "app",
+      "title": "仪表地图（自定义试验版）",
+      "description": "布局仍在调试；保留原厂仪表模式。",
+      "version": "99.0.4",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "requires": {
+        "waze-on-cluster": "99.0.4"
+      },
+      "build": "unit",
+      "artifact": {
+        "name": "robertn_waze_cluster@99.0.4_large.src.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/catalog/robertn_waze_cluster%4099.0.4_large.src.tgz",
+        "size": 95707,
+        "sha256": "f0268ae471effc6201e78f99b1402729a741560859dfefa2d5f3c3ac585582ce"
+      }
+    }
+  ]
+}
