@@ -5,8 +5,8 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（自定义试验版）",
-      "description": "布局仍在调试；保留原厂仪表模式。",
-      "version": "99.0.4",
+      "description": "99.0.5：规则闭合内框，平顶平底、光滑两侧，无凹口无圆孔，边缘羽化。尚未实车确认。",
+      "version": "99.0.5",
       "mguHmi": [
         "ID7"
       ],
@@ -15,52 +15,52 @@
         "mgu-deploy": "0.7.17"
       },
       "artifact": {
-        "name": "cluster-render@99.0.4.tgz",
-        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/catalog/cluster-render%4099.0.4.tgz",
-        "size": 10445872,
-        "sha256": "ba3f41df540d30ae47f39e4378b4e58092d0c4580fb39c37d66440a6a45e514f"
+        "name": "cluster-render@99.0.5.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/99.0.5/cluster-render%4099.0.5.tgz",
+        "size": 10444121,
+        "sha256": "d7718c31a5ddc7d8a17734d874730c819103520851f1829d7d2a1384439bb204"
       }
     },
     {
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（自定义试验版）",
-      "description": "布局仍在调试；保留原厂仪表模式。",
-      "version": "99.0.4",
+      "description": "99.0.5：规则闭合内框，平顶平底、光滑两侧，无凹口无圆孔，边缘羽化。尚未实车确认。",
+      "version": "99.0.5",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.4"
+        "cluster-render": "99.0.5"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.4.tgz",
-        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/catalog/waze-on-cluster%4099.0.4.tgz",
-        "size": 2565462,
-        "sha256": "e333830ee16a3c4adb7b257ab5308fc54ae851cff7e803e876d087544f8660f7"
+        "name": "waze-on-cluster@99.0.5.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/99.0.5/waze-on-cluster%4099.0.5.tgz",
+        "size": 2564243,
+        "sha256": "509c84d80a7f09329ac04d29809496b3be932693e355590254bcac1248090e55"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（自定义试验版）",
-      "description": "布局仍在调试；保留原厂仪表模式。",
-      "version": "99.0.4",
+      "description": "99.0.5：规则闭合内框，平顶平底、光滑两侧，无凹口无圆孔，边缘羽化。尚未实车确认。",
+      "version": "99.0.5",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.4"
+        "waze-on-cluster": "99.0.5"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.4.tgz",
-        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/catalog/robertn_waze_cluster%4099.0.4.tgz",
-        "size": 95707,
-        "sha256": "f0268ae471effc6201e78f99b1402729a741560859dfefa2d5f3c3ac585582ce"
+        "name": "robertn_waze_cluster@99.0.5.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/99.0.5/robertn_waze_cluster%4099.0.5.tgz",
+        "size": 95751,
+        "sha256": "1ef3f439b7459c442168fb3adfe9b8af7243475f1bca852d4c900972e31da9dc"
       }
     }
   ]
