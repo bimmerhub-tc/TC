@@ -5,8 +5,8 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（自定义试验版）",
-      "description": "99.0.6：旧版轮廓平滑对称化，放大10%并左移16下移15；最外10%地图不透明度0至20%，向内渐变。尚未实车确认。",
-      "version": "99.0.6",
+      "description": "99.0.7：旧版轮廓平滑对称化，放大10%并左移16下移15；最外10%地图不透明度0至20%，向内渐变。尚未实车确认。",
+      "version": "99.0.7",
       "mguHmi": [
         "ID7"
       ],
@@ -15,52 +15,52 @@
         "mgu-deploy": "0.7.17"
       },
       "artifact": {
-        "name": "cluster-render@99.0.6.tgz",
-        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/99.0.6/cluster-render%4099.0.6.tgz",
-        "size": 10444291,
-        "sha256": "e46ab6b128df9ced8c23936cc77f8cc130a79489775b2b994caaafb2e2cff761"
+        "name": "cluster-render@99.0.7.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/99.0.7/cluster-render%4099.0.7.tgz",
+        "size": 10444297,
+        "sha256": "ecab801fa703a41adad9ca7ca1208153e2d615e62302167b08d8d63c2b4d8b9d"
       }
     },
     {
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（自定义试验版）",
-      "description": "99.0.6：旧版轮廓平滑对称化，放大10%并左移16下移15；最外10%地图不透明度0至20%，向内渐变。尚未实车确认。",
-      "version": "99.0.6",
+      "description": "99.0.7：旧版轮廓平滑对称化，放大10%并左移16下移15；最外10%地图不透明度0至20%，向内渐变。尚未实车确认。",
+      "version": "99.0.7",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.6"
+        "cluster-render": "99.0.7"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.6.tgz",
-        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/99.0.6/waze-on-cluster%4099.0.6.tgz",
-        "size": 2564338,
-        "sha256": "ab62861fb27d86850bb2837a00b5b58f2614da5e24a23604b5bf6a19c9afd6f7"
+        "name": "waze-on-cluster@99.0.7.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/99.0.7/waze-on-cluster%4099.0.7.tgz",
+        "size": 2570502,
+        "sha256": "a599799b1d7834ce281bf35ea06d2f5e8e865d30409a35c0da7b34460c00a33d"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（自定义试验版）",
-      "description": "99.0.6：旧版轮廓平滑对称化，放大10%并左移16下移15；最外10%地图不透明度0至20%，向内渐变。尚未实车确认。",
-      "version": "99.0.6",
+      "description": "99.0.7：旧版轮廓平滑对称化，放大10%并左移16下移15；最外10%地图不透明度0至20%，向内渐变。尚未实车确认。",
+      "version": "99.0.7",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.6"
+        "waze-on-cluster": "99.0.7"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.6.tgz",
-        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/99.0.6/robertn_waze_cluster%4099.0.6.tgz",
-        "size": 95751,
-        "sha256": "31d7562e780a6d189dc60d74e9cf5f006e85d5b344a8e5266ef015dd5d058685"
+        "name": "robertn_waze_cluster@99.0.7.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/99.0.7/robertn_waze_cluster%4099.0.7.tgz",
+        "size": 95768,
+        "sha256": "b6f74d92998f056ef4c16aa9fd9024f47b8dc8277b48fe0beed7bdad7191b7f1"
       }
     }
   ]
