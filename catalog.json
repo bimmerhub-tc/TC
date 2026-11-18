@@ -57,8 +57,8 @@
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.4_large.src.tgz",
-        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/catalog/robertn_waze_cluster%4099.0.4_large.src.tgz",
+        "name": "robertn_waze_cluster@99.0.4.tgz",
+        "url": "https://github.com/teddychow2014-afk/mgu-cluster-releases/releases/download/catalog/robertn_waze_cluster%4099.0.4.tgz",
         "size": 95707,
         "sha256": "f0268ae471effc6201e78f99b1402729a741560859dfefa2d5f3c3ac585582ce"
       }
