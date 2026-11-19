@@ -1,1 +1,67 @@
-{"schema":2,"components":[]}
+{
+  "schema": 2,
+  "components": [
+    {
+      "id": "cluster-render",
+      "kind": "tool",
+      "title": "仪表渲染器（实车测试候选版）",
+      "description": "99.0.10 测试候选，未实车验证。99.0.8曾出现仪表全黑，根因尚未确认，不保证本版已修复。保留1460×500旧轮廓羽化，位置(264,86)，独立纹理遮罩及上游自动投射。",
+      "version": "99.0.10",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "requires": {
+        "mgu-deploy": "0.7.17"
+      },
+      "artifact": {
+        "name": "cluster-render@99.0.10.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.10/cluster-render%4099.0.10.tgz",
+        "size": 10444539,
+        "sha256": "9a364df9cff95a77f6d508085e1b7cacba226862bc31227af3abe886dfe93953"
+      }
+    },
+    {
+      "id": "waze-on-cluster",
+      "kind": "tool",
+      "title": "仪表地图服务（实车测试候选版）",
+      "description": "99.0.10 测试候选，未实车验证。99.0.8曾出现仪表全黑，根因尚未确认，不保证本版已修复。保留1460×500旧轮廓羽化，位置(264,86)，独立纹理遮罩及上游自动投射。",
+      "version": "99.0.10",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "requires": {
+        "mgu-deploy": "0.7.17",
+        "cluster-render": "99.0.10"
+      },
+      "artifact": {
+        "name": "waze-on-cluster@99.0.10.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.10/waze-on-cluster%4099.0.10.tgz",
+        "size": 2570277,
+        "sha256": "6c92809b933c347bb090312612d8a6c43a41807b69b797c9264ebc046889f7a3"
+      }
+    },
+    {
+      "id": "robertn_waze_cluster",
+      "kind": "app",
+      "title": "仪表地图（实车测试候选版）",
+      "description": "99.0.10 测试候选，未实车验证。99.0.8曾出现仪表全黑，根因尚未确认，不保证本版已修复。保留1460×500旧轮廓羽化，位置(264,86)，独立纹理遮罩及上游自动投射。",
+      "version": "99.0.10",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "requires": {
+        "waze-on-cluster": "99.0.10"
+      },
+      "build": "unit",
+      "artifact": {
+        "name": "robertn_waze_cluster@99.0.10.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.10/robertn_waze_cluster%4099.0.10.tgz",
+        "size": 95760,
+        "sha256": "bc9992749e02bf621c63ed37a7f7e24e215b4447941e57711c01a9d678385766"
+      }
+    }
+  ]
+}
