@@ -16,7 +16,7 @@
       },
       "artifact": {
         "name": "cluster-render@99.0.8.tgz",
-        "url": "https://github.com/teddychow2014-afk/TC/releases/download/99.0.8/cluster-render%4099.0.8.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.8/cluster-render%4099.0.8.tgz",
         "size": 10449672,
         "sha256": "604e95430542d72a787002b90a01f533cdb34b3403a21929c57ffbae8e010aca"
       }
@@ -37,7 +37,7 @@
       },
       "artifact": {
         "name": "waze-on-cluster@99.0.8.tgz",
-        "url": "https://github.com/teddychow2014-afk/TC/releases/download/99.0.8/waze-on-cluster%4099.0.8.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.8/waze-on-cluster%4099.0.8.tgz",
         "size": 2573705,
         "sha256": "946a5f3b37ceaf00a280a1d64f2cb14f65e1998bb7f6830e9cdcf2da12b4c2f3"
       }
@@ -58,7 +58,7 @@
       "build": "unit",
       "artifact": {
         "name": "robertn_waze_cluster@99.0.8.tgz",
-        "url": "https://github.com/teddychow2014-afk/TC/releases/download/99.0.8/robertn_waze_cluster%4099.0.8.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.8/robertn_waze_cluster%4099.0.8.tgz",
         "size": 95737,
         "sha256": "e6b4e1a7307a92ae3cf6e6710de4423482fb341a30b0b62fa1fb6b3917168ce1"
       }
