@@ -5,7 +5,7 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（实车测试候选版）",
-      "description": "99.0.15测试候选：大屏1533×525，位置(204,104)，可见轮廓加宽10%；仅局部修顺左右封口，外沿35%不透明度。源1400×480，大屏约放大9.5%，小屏中心裁切不拉伸。保留自动投射。未实车验证。",
+      "description": "沿用99.0.15大屏渲染器：1533×525，位置(204,104)，原有轮廓与边缘透明效果。配合地图服务99.0.18和APP99.0.19测试。",
       "version": "99.0.15",
       "mguHmi": [
         "ID7"
@@ -25,8 +25,8 @@
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "99.0.15测试候选：大屏1533×525，位置(204,104)，可见轮廓加宽10%；仅局部修顺左右封口，外沿35%不透明度。源1400×480，大屏约放大9.5%，小屏中心裁切不拉伸。保留自动投射。未实车验证。",
-      "version": "99.0.15",
+      "description": "原厂地图使用完整1088×480源，大屏1400×480；保留大屏效果和自动投射。源尺寸切换需应用补丁并按提示重启。",
+      "version": "99.0.18",
       "mguHmi": [
         "ID7"
       ],
@@ -36,31 +36,31 @@
         "cluster-render": "99.0.15"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.15.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.15/waze-on-cluster%4099.0.15.tgz",
-        "size": 2570203,
-        "sha256": "950b83cf8cd2a15f74f7998dc0ea78586ceca38379bd7c45a5fa65cefae87ce2"
+        "name": "waze-on-cluster@99.0.18.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.19/waze-on-cluster%4099.0.18.tgz",
+        "size": 2574720,
+        "sha256": "816dd4e4c76963c2da1801a64cedcb62c3281e3ee52f88098c97b61920d89f20"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "99.0.16卡片接口测试：仅APP更新，底层保持99.0.15。手动请求CarPlay转向/到达时间卡片；布局与透明度仍由手机控制，未实车验证。",
-      "version": "99.0.16",
+      "description": "独立导航卡片功能测试：转向/车道在上方，到达时长、里程、时刻在下方一行。38%不透明度；原厂槽卡片75%。真实手机地图数据待实车验证。",
+      "version": "99.0.19",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.15"
+        "waze-on-cluster": "99.0.18"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.16.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.16/robertn_waze_cluster%4099.0.16.tgz",
-        "size": 98616,
-        "sha256": "4a8246d3e13924488f2b059a6bb29ede32369c5c08fff747235550a431f0747d"
+        "name": "robertn_waze_cluster@99.0.19.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.19/robertn_waze_cluster%4099.0.19.tgz",
+        "size": 2942426,
+        "sha256": "2f3f0d3e8c1c0840a93f78db4663a1eaa49e7a85856f8317d81557391ddb4c9c"
       }
     }
   ]
