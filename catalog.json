@@ -5,8 +5,8 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（实车测试候选版）",
-      "description": "99.0.12测试候选：1460×500，位置(256,96)，左右弧面封口与20像素侧向羽化。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
-      "version": "99.0.12",
+      "description": "99.0.13测试候选：1460×500，位置(240,116)，二维透明遮罩统一羽化；尚未精准贴合实车内沿。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
+      "version": "99.0.13",
       "mguHmi": [
         "ID7"
       ],
@@ -15,52 +15,52 @@
         "mgu-deploy": "0.7.17"
       },
       "artifact": {
-        "name": "cluster-render@99.0.12.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.12/cluster-render%4099.0.12.tgz",
-        "size": 10444571,
-        "sha256": "fc0b61031d3f22ad2c0f7323bd0f754e6144f0f402c53e4031c2fe4ab0ff0416"
+        "name": "cluster-render@99.0.13.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.13/cluster-render%4099.0.13.tgz",
+        "size": 10480094,
+        "sha256": "ed50e75dade23876b340eb0514c48101cb28f35fb468076525118e747505724a"
       }
     },
     {
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "99.0.12测试候选：1460×500，位置(256,96)，左右弧面封口与20像素侧向羽化。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
-      "version": "99.0.12",
+      "description": "99.0.13测试候选：1460×500，位置(240,116)，二维透明遮罩统一羽化；尚未精准贴合实车内沿。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
+      "version": "99.0.13",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.12"
+        "cluster-render": "99.0.13"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.12.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.12/waze-on-cluster%4099.0.12.tgz",
-        "size": 2570345,
-        "sha256": "721c6781069b0e9c2ddac0a61cd571524fcb9f2fb552f6e880cda31408e40b3e"
+        "name": "waze-on-cluster@99.0.13.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.13/waze-on-cluster%4099.0.13.tgz",
+        "size": 2570019,
+        "sha256": "a635dbc91c094e31be244fa015131c83e74295fe00a068afdfa8bdd417aa4912"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "99.0.12测试候选：1460×500，位置(256,96)，左右弧面封口与20像素侧向羽化。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
-      "version": "99.0.12",
+      "description": "99.0.13测试候选：1460×500，位置(240,116)，二维透明遮罩统一羽化；尚未精准贴合实车内沿。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
+      "version": "99.0.13",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.12"
+        "waze-on-cluster": "99.0.13"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.12.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.12/robertn_waze_cluster%4099.0.12.tgz",
-        "size": 95767,
-        "sha256": "95df5c3fa93a9b485852513684ec24be8405da84b9a1d47c699b285d0a7fbe57"
+        "name": "robertn_waze_cluster@99.0.13.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.13/robertn_waze_cluster%4099.0.13.tgz",
+        "size": 95750,
+        "sha256": "bf55d89108ef63da4899cf079b2b2fb1388f2ba29063187564297bc48c97f63d"
       }
     }
   ]
