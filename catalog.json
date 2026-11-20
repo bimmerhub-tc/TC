@@ -46,8 +46,8 @@
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "99.0.15测试候选：大屏1533×525，位置(204,104)，可见轮廓加宽10%；仅局部修顺左右封口，外沿35%不透明度。源1400×480，大屏约放大9.5%，小屏中心裁切不拉伸。保留自动投射。未实车验证。",
-      "version": "99.0.15",
+      "description": "99.0.16卡片接口测试：仅APP更新，底层保持99.0.15。手动请求CarPlay转向/到达时间卡片；布局与透明度仍由手机控制，未实车验证。",
+      "version": "99.0.16",
       "mguHmi": [
         "ID7"
       ],
@@ -57,10 +57,10 @@
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.15.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.15/robertn_waze_cluster%4099.0.15.tgz",
-        "size": 95894,
-        "sha256": "d236b1dd57459e301f33ffc630b3458c7b46d0a5e2b62d7d34d9ff50ab7125f4"
+        "name": "robertn_waze_cluster@99.0.16.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.16/robertn_waze_cluster%4099.0.16.tgz",
+        "size": 98616,
+        "sha256": "4a8246d3e13924488f2b059a6bb29ede32369c5c08fff747235550a431f0747d"
       }
     }
   ]
