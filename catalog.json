@@ -5,8 +5,8 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（实车测试候选版）",
-      "description": "99.0.13测试候选：1460×500，位置(240,116)，二维透明遮罩统一羽化；尚未精准贴合实车内沿。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
-      "version": "99.0.13",
+      "description": "99.0.14测试候选：源/解码1400×480，大屏1460×500约放大4.3%；普通仪表裁取中心1088×480。位置(240,116)。需更新CarPlay补丁并按APP提示重启、重连手机，实际输出未实车验证。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
+      "version": "99.0.14",
       "mguHmi": [
         "ID7"
       ],
@@ -15,52 +15,52 @@
         "mgu-deploy": "0.7.17"
       },
       "artifact": {
-        "name": "cluster-render@99.0.13.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.13/cluster-render%4099.0.13.tgz",
-        "size": 10480094,
-        "sha256": "ed50e75dade23876b340eb0514c48101cb28f35fb468076525118e747505724a"
+        "name": "cluster-render@99.0.14.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.14/cluster-render%4099.0.14.tgz",
+        "size": 10480100,
+        "sha256": "cb9b4b42fa27ea650a3640087039bb9a38922de973b587ea59384742a3f163f3"
       }
     },
     {
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "99.0.13测试候选：1460×500，位置(240,116)，二维透明遮罩统一羽化；尚未精准贴合实车内沿。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
-      "version": "99.0.13",
+      "description": "99.0.14测试候选：源/解码1400×480，大屏1460×500约放大4.3%；普通仪表裁取中心1088×480。位置(240,116)。需更新CarPlay补丁并按APP提示重启、重连手机，实际输出未实车验证。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
+      "version": "99.0.14",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.13"
+        "cluster-render": "99.0.14"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.13.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.13/waze-on-cluster%4099.0.13.tgz",
-        "size": 2570019,
-        "sha256": "a635dbc91c094e31be244fa015131c83e74295fe00a068afdfa8bdd417aa4912"
+        "name": "waze-on-cluster@99.0.14.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.14/waze-on-cluster%4099.0.14.tgz",
+        "size": 2570205,
+        "sha256": "66dbdfa7f280e8098877fdca3ba463541a962409d44fe021197bb36dbdaae54c"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "99.0.13测试候选：1460×500，位置(240,116)，二维透明遮罩统一羽化；尚未精准贴合实车内沿。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
-      "version": "99.0.13",
+      "description": "99.0.14测试候选：源/解码1400×480，大屏1460×500约放大4.3%；普通仪表裁取中心1088×480。位置(240,116)。需更新CarPlay补丁并按APP提示重启、重连手机，实际输出未实车验证。保留自动投射。未实车验证，99.0.8黑屏根因仍未确认。",
+      "version": "99.0.14",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.13"
+        "waze-on-cluster": "99.0.14"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.13.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.13/robertn_waze_cluster%4099.0.13.tgz",
-        "size": 95750,
-        "sha256": "bf55d89108ef63da4899cf079b2b2fb1388f2ba29063187564297bc48c97f63d"
+        "name": "robertn_waze_cluster@99.0.14.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.14/robertn_waze_cluster%4099.0.14.tgz",
+        "size": 95941,
+        "sha256": "0149aac00b90709c1fbb84c7bc31c210bab11b4cfefd6d3fc8920a92c400f95f"
       }
     }
   ]
