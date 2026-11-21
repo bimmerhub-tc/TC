@@ -1,19 +1,19 @@
 # TC 仪表大屏地图投射
 
-#99.0.21 CarPlay ETA数据入口测试版
+#99.0.22 CarPlay ETA数据入口测试版
 
-99.0.21 CarPlay ETA数据入口测试版
+99.0.22 完整三件套测试版
 
-APP99.0.21；地图服务99.0.18；渲染器99.0.15。仅APP更新，保持仓库99.0.20的地图效果；本地未完成的轮廓调整不包含在此包。
+APP、waze-on-cluster、cluster-render均99.0.22。
+大屏1533×525，位置(204,96)，保留原宽高、上移8像素。只对左右上下肩部平滑增补，峰值约6像素；保持左右对称、中部主体和横向范围。取消35%不透明度边带，改为约2像素轻微向内羽化。
+遮罩在闭合轮廓外透明。仅依据此前参考轮廓保守调整，实际原厂刻度线间隙尚未经过实车标定，不能宣称已确认不遮挡刻度；请停稳后观察。
 
-ETA优先读取ProjectedModeGuiding/Main_Instance.waypoints，结合CarPlayManager/CarPlayManagerInst1的projectedGuidanceActive和projectedGuidanceMetadataAvailable。选择终点数据，显示剩余时间、里程和到达时刻。兼容数字字符串、hour/hours和minute/minutes。只读，不发送CarPlay界面控制请求。
+ETA继承99.0.21：读取CarPlay ProjectedModeGuiding.waypoints及CarPlayManager导航/元数据标志，单行显示剩余时长、里程和到达时刻。只读，不控制手机界面。不同地图是否提供数据待实车验证，转向数据入口暂未改变。
+诊断包含连接、读取超时、字段失败、CarPlay活动与元数据状态；不记录路线和目的地内容。
 
-转向/车道入口暂未改变。不同手机地图是否提供数据待实车验证，不能保证高德、百度等均支持。
+Store更新三个组件至99.0.22，按提示重启。启动手机导航并确认仪表地图可见，在APP勾选独立到达时间卡片并按应用卡片设置。开关当前进程内有效；重启后需再次应用。读不到数据时拍APP卡片状态。
+原厂地图源1088×480，大屏源1400×480；切换源尺寸按APP提示应用补丁并重启。
 
-启用：启动手机导航，确认仪表地图已显示；在APP勾选独立到达时间卡片，按应用卡片设置。退出导航、元数据关闭或数据过期时隐藏。开关只在当前APP进程内生效，重启后需再次应用。
+电脑检查通过：目标编译/ABI、两条GLES实际绘图路径与普通模式、地图/HUD回归、ETA解析及导航状态门控、APP页面、Store模块链接和接口声明、包CRC及校验和。未连接车机，未完成此版实车验证。
 
-若不显示，请拍APP卡片状态，包含CarPlay连接、导航活动、元数据、waypoints和ETA识别情况。诊断不记录道路、路线或目的地内容。
-
-已通过数据解码、CarPlay标志、无Guidance数据、过期/导航结束、模拟页面及Store模块链接和接口声明检查；尚未实车验证。未连接车机。
-
-[安装包与源码](https://github.com/bimmerhub-tc/TC/releases/tag/99.0.21)
+[安装包与源码](https://github.com/bimmerhub-tc/TC/releases/tag/99.0.22)
