@@ -5,7 +5,7 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（实车测试候选版）",
-      "description": "沿用99.0.15大屏渲染器：1533×525，位置(204,104)，原有轮廓与边缘透明效果。配合地图服务99.0.18和APP99.0.20测试。",
+      "description": "沿用99.0.15大屏渲染器：1533×525，位置(204,104)，原有轮廓与边缘透明效果。配合地图服务99.0.18和APP99.0.21测试。",
       "version": "99.0.15",
       "mguHmi": [
         "ID7"
@@ -37,7 +37,7 @@
       },
       "artifact": {
         "name": "waze-on-cluster@99.0.18.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.20/waze-on-cluster%4099.0.18.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.21/waze-on-cluster%4099.0.18.tgz",
         "size": 2574720,
         "sha256": "816dd4e4c76963c2da1801a64cedcb62c3281e3ee52f88098c97b61920d89f20"
       }
@@ -46,8 +46,8 @@
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "独立导航卡片功能测试：转向/车道在上方，到达时长、里程、时刻在下方一行。38%不透明度；原厂槽卡片75%。真实手机地图数据待实车验证。",
-      "version": "99.0.20",
+      "description": "CarPlay ETA改读ProjectedModeGuiding.waypoints，增加连接/元数据诊断；仅APP更新，地图效果不变。不同地图数据待实车验证。",
+      "version": "99.0.21",
       "mguHmi": [
         "ID7"
       ],
@@ -57,10 +57,10 @@
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.20.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.20/robertn_waze_cluster%4099.0.20.tgz",
-        "size": 2942447,
-        "sha256": "2a3120ec10cad1ed47af0496b502d5e5e68006452302ae16f7feedc2b7ee5d22"
+        "name": "robertn_waze_cluster@99.0.21.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.21/robertn_waze_cluster%4099.0.21.tgz",
+        "size": 2945073,
+        "sha256": "a1d147a2caf91c9391966fde01ceed319c7238c6d7e1be036eb36de00953c2e8"
       }
     }
   ]
