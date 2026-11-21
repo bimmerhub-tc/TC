@@ -5,8 +5,8 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（实车测试候选版）",
-      "description": "沿用99.0.15大屏渲染器：1533×525，位置(204,104)，原有轮廓与边缘透明效果。配合地图服务99.0.18和APP99.0.21测试。",
-      "version": "99.0.15",
+      "description": "大屏1533×525保持原宽高，位置(204,96)。两侧上下局部丰满，轻微向内羽化，实车刻度间隙待确认。",
+      "version": "99.0.22",
       "mguHmi": [
         "ID7"
       ],
@@ -15,10 +15,10 @@
         "mgu-deploy": "0.7.17"
       },
       "artifact": {
-        "name": "cluster-render@99.0.15.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.20/cluster-render%4099.0.15.tgz",
-        "size": 10457458,
-        "sha256": "9a9428e84e1d83c3ec65bfba8b71082297c1cd6fde855d6e1362a1111933751c"
+        "name": "cluster-render@99.0.22.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.22/cluster-render%4099.0.22.tgz",
+        "size": 10449689,
+        "sha256": "ef46991bc1a402f03c77420fcd1a646e7e269b61959ee86858fba3725c641a4c"
       }
     },
     {
@@ -26,41 +26,41 @@
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
       "description": "原厂地图使用完整1088×480源，大屏1400×480；保留大屏效果和自动投射。源尺寸切换需应用补丁并按提示重启。",
-      "version": "99.0.18",
+      "version": "99.0.22",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.15"
+        "cluster-render": "99.0.22"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.18.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.21/waze-on-cluster%4099.0.18.tgz",
-        "size": 2574720,
-        "sha256": "816dd4e4c76963c2da1801a64cedcb62c3281e3ee52f88098c97b61920d89f20"
+        "name": "waze-on-cluster@99.0.22.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.22/waze-on-cluster%4099.0.22.tgz",
+        "size": 2574729,
+        "sha256": "9e91dafbbb78501aada6b8b1f68af628c32b93701be4e796a3ce125c8efc1736"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "CarPlay ETA改读ProjectedModeGuiding.waypoints，增加连接/元数据诊断；仅APP更新，地图效果不变。不同地图数据待实车验证。",
-      "version": "99.0.21",
+      "description": "CarPlay ETA改读ProjectedModeGuiding.waypoints，增加连接/元数据诊断；三件套更新：大屏上移8像素，仅丰满两侧上下轮廓，宽高不变、轻微羽化。不同地图数据待实车验证。",
+      "version": "99.0.22",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.18"
+        "waze-on-cluster": "99.0.22"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.21.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.21/robertn_waze_cluster%4099.0.21.tgz",
+        "name": "robertn_waze_cluster@99.0.22.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.22/robertn_waze_cluster%4099.0.22.tgz",
         "size": 2945073,
-        "sha256": "a1d147a2caf91c9391966fde01ceed319c7238c6d7e1be036eb36de00953c2e8"
+        "sha256": "d92cc2d0434d8f3a639199e003af9388cc3e691cf9755b88d978a6ffa26ffe5a"
       }
     }
   ]
