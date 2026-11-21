@@ -46,21 +46,44 @@
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "CarPlay ETA改读ProjectedModeGuiding.waypoints，增加连接/元数据诊断；三件套更新：大屏上移8像素，仅丰满两侧上下轮廓，宽高不变、轻微羽化。不同地图数据待实车验证。",
-      "version": "99.0.22",
+      "description": "99.0.23新增默认关闭的中控原生卡片截取模式，支持APP控制与诊断；原有ETA数据模式和地图效果保留，实车待验证。",
+      "version": "99.0.23",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.22"
+        "waze-on-cluster": "99.0.22",
+        "screen-cards": "99.0.23"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.22.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.22/robertn_waze_cluster%4099.0.22.tgz",
-        "size": 2945073,
-        "sha256": "d92cc2d0434d8f3a639199e003af9388cc3e691cf9755b88d978a6ffa26ffe5a"
+        "name": "robertn_waze_cluster@99.0.23.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.23/robertn_waze_cluster%4099.0.23.tgz",
+        "size": 2946216,
+        "sha256": "709d47bceaa31f7aa98e8451157303be561b555f7263cf6248da0c46f7abd066"
+      }
+    },
+    {
+      "id": "screen-cards",
+      "kind": "tool",
+      "title": "中控导航卡片截取（测试）",
+      "description": "默认关闭，由APP明确启用后截取中控卡片；固定1920×720布局，尚未实车验证。",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "requires": {
+        "mgu-deploy": "0.7.17",
+        "cluster-render": "99.0.22",
+        "waze-on-cluster": "99.0.22"
+      },
+      "version": "99.0.23",
+      "artifact": {
+        "name": "screen-cards@99.0.23.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.23/screen-cards%4099.0.23.tgz",
+        "size": 25505,
+        "sha256": "50d4f064ab09d5af476f2ec5275db2f772cd8c1603a82fcaeff2c26ffdbe024d"
       }
     }
   ]
