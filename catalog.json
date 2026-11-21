@@ -16,7 +16,7 @@
       },
       "artifact": {
         "name": "cluster-render@99.0.15.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.15/cluster-render%4099.0.15.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.20/cluster-render%4099.0.15.tgz",
         "size": 10457458,
         "sha256": "9a9428e84e1d83c3ec65bfba8b71082297c1cd6fde855d6e1362a1111933751c"
       }
