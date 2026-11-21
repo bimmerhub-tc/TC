@@ -1,14 +1,16 @@
 # TC
 
-# 99.0.23 中控原生导航卡片截取 · 实车测试版
+# 99.0.24 修复截取服务启动失败 · 实车测试版
 
-APP与新增screen-cards服务为99.0.23；地图服务waze-on-cluster与渲染器cluster-render保持99.0.22。地图尺寸、轮廓、位置和ETA数据读取逻辑保持不变。
+修复99.0.23依赖车机不存在的getent命令，导致后台服务无法启动的问题。现在直接读取/etc/group，不依赖外部查询命令。APP连接诊断区分服务未启动与权限不足。真实抓屏与效果仍待实车验证。
+
+APP与新增screen-cards服务为99.0.24；地图服务waze-on-cluster与渲染器cluster-render保持99.0.22。地图尺寸、轮廓、位置和ETA数据读取逻辑保持不变。
 
 新增默认关闭的“截取中控原生卡片（测试）”。按用户确认的相同布局，在1920×720中控画面裁切转向区域(1111,14,654,221)与ETA区域(1111,545,652,163)，把原始箭头、文字和时间缩小显示到仪表，38%不透明度；原厂地图位置再缩至75%。本测试模式不OCR、不重新绘制箭头、不依赖waypoints，也不依赖Waze颜色识别。
 
 ## 上车测试
 
-1. Store来源bimmerhub-tc/TC，Releases，检查更新。APP更新至99.0.23，并确认新增“中控导航卡片截取（测试）”服务99.0.23已安装。地图服务和渲染器保持99.0.22。按安装提示重启。
+1. Store来源bimmerhub-tc/TC，Releases，检查更新。APP更新至99.0.24，并确认新增“中控导航卡片截取（测试）”服务99.0.24已安装。地图服务和渲染器保持99.0.22。按安装提示重启。
 2. 中控打开CarPlay导航，保持原生转向卡和ETA可见，并确认地图已投射到仪表。
 3. APP勾选“截取中控原生卡片（测试）”，按需要勾选转向卡和ETA，点击“应用卡片设置”。设置页退出后APP保持活动；进程重启需重新应用。
 4. 查看APP卡片状态：submitted表示已提交图层；waiting-map表示仪表地图未显示；capture-failed及后续代码表示截图失败；bad-frame表示画面格式不符。拍下状态与实车效果以便调试。
@@ -22,4 +24,4 @@ APP与新增screen-cards服务为99.0.23；地图服务waze-on-cluster与渲染�
 
 Waze检测/裁切函数来源noth4m4d/mgu-hamadstools（h4m4d），保留MIT许可证；新增代码为GPL-3.0-or-later。对应源码及许可证随附件提供。不包含BMW专有SDK、车辆备份或密钥。
 
-[最新测试版](https://github.com/bimmerhub-tc/TC/releases/tag/99.0.23)
+[最新测试版](https://github.com/bimmerhub-tc/TC/releases/tag/99.0.24)
