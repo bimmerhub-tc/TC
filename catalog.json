@@ -85,6 +85,28 @@
         "size": 25757,
         "sha256": "20367e6d5823228358f829f49807fdc09f6b67a7813b0603ce484676111920f4"
       }
+    },
+    {
+      "id": "tc_camera_test",
+      "kind": "app",
+      "title": "TC摄像头请求测试",
+      "description": "独立测试：前摄/后摄/前后合成/全部视角请求与中控显示。原生解码器未改，实际视角待实车确认。",
+      "version": "0.1.0",
+      "build": "unit",
+      "mguHmi": [
+        "ID7"
+      ],
+      "uninstallable": true,
+      "requires": {
+        "iteriodev-turnview": "0.10.0",
+        "mgu-deploy": "0.7.5"
+      },
+      "artifact": {
+        "name": "tc_camera_test@0.1.0.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/tc-camera-test-0.1.0/tc_camera_test%400.1.0.tgz",
+        "size": 741202,
+        "sha256": "114cadb1372bf256644234c0a4c045915b4330c06a6275a9b4622b3376f5c73d"
+      }
     }
   ]
 }
