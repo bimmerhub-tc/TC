@@ -25,8 +25,8 @@
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "原厂地图使用完整1088×480源，大屏1400×480；保留大屏效果和自动投射。源尺寸切换需应用补丁并按提示重启。",
-      "version": "99.0.22",
+      "description": "保留地图显示与自动投射，增加APP导航诊断日志导出。地图可执行文件不变。",
+      "version": "99.0.25",
       "mguHmi": [
         "ID7"
       ],
@@ -36,32 +36,31 @@
         "cluster-render": "99.0.22"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.22.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.22/waze-on-cluster%4099.0.22.tgz",
-        "size": 2574729,
-        "sha256": "9e91dafbbb78501aada6b8b1f68af628c32b93701be4e796a3ce125c8efc1736"
+        "name": "waze-on-cluster@99.0.25.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.25/waze-on-cluster%4099.0.25.tgz",
+        "size": 2575009,
+        "sha256": "c36f9058fb3f28a4710cd278cab022da06b257f9219937457099b49d7f364b4c"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "99.0.24新增默认关闭的中控原生卡片截取模式，支持APP控制与诊断；原有ETA数据模式和地图效果保留，实车待验证。",
-      "version": "99.0.24",
+      "description": "导航事件列表诊断测试：只读数据重绘转向，保存日志附带接口诊断；截图禁用，地图效果保留，未实车验证。",
+      "version": "99.0.25",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.22",
-        "screen-cards": "99.0.24"
+        "waze-on-cluster": "99.0.25"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.24.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.24/robertn_waze_cluster%4099.0.24.tgz",
-        "size": 2946336,
-        "sha256": "b5aa0ae3b8f03d3b027caae9afeac9e23038612d6cd96718b7307a8c8450a68f"
+        "name": "robertn_waze_cluster@99.0.25.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.25/robertn_waze_cluster%4099.0.25.tgz",
+        "size": 2948613,
+        "sha256": "8afad177481c54648c37794af18af03f6edd591a98f3ea0284d10dab5ad943da"
       }
     },
     {
