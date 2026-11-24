@@ -25,8 +25,8 @@
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "保留地图显示与自动投射，兼容新版导航诊断日志。",
-      "version": "99.0.29",
+      "description": "保留地图显示与自动投射，增加APP导航诊断日志导出。地图可执行文件不变。",
+      "version": "99.0.30",
       "mguHmi": [
         "ID7"
       ],
@@ -36,32 +36,32 @@
         "cluster-render": "99.0.29"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.29.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.29/waze-on-cluster%4099.0.29.tgz",
-        "size": 2575012,
-        "sha256": "4bc7fdd5eeeee9bd99e42871ca905de2b49b29480712c5dc2107eff9cf1ef838"
+        "name": "waze-on-cluster@99.0.30.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.30/waze-on-cluster%4099.0.30.tgz",
+        "size": 2575017,
+        "sha256": "e42013fb9f513577916bae876e94ee54948a672a6b0dd9918fd9eaaee1171403"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "统一Regular字体与80%扁平卡片，导航中底部显示currentRoad，APP启动默认应用卡片；位置与冷启动待实测。",
-      "version": "99.0.29",
+      "description": "字号增大30%；当前道路双接口择优，缺失时显示导航中，结束移除自绘文字；实车待验证。",
+      "version": "99.0.30",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.29",
+        "waze-on-cluster": "99.0.30",
         "cluster-render": "99.0.29"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.29.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.29/robertn_waze_cluster%4099.0.29.tgz",
-        "size": 3640355,
-        "sha256": "c78ce7d1840f8d8b5720d202ad6d7d356fbe4f2ce4419bfcaac84f3a3161306f"
+        "name": "robertn_waze_cluster@99.0.30.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.30/robertn_waze_cluster%4099.0.30.tgz",
+        "size": 3640941,
+        "sha256": "6d16e84825d72428ac6bb69a6b5a819b38dbea7578b18fbd63fb72bac0b776b2"
       }
     },
     {
