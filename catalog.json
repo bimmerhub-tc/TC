@@ -26,7 +26,7 @@
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
       "description": "保留地图显示与自动投射，增加APP导航诊断日志导出。地图可执行文件不变。",
-      "version": "99.0.25",
+      "version": "99.0.28",
       "mguHmi": [
         "ID7"
       ],
@@ -36,31 +36,31 @@
         "cluster-render": "99.0.22"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.25.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.25/waze-on-cluster%4099.0.25.tgz",
-        "size": 2575009,
-        "sha256": "c36f9058fb3f28a4710cd278cab022da06b257f9219937457099b49d7f364b4c"
+        "name": "waze-on-cluster@99.0.28.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.28/waze-on-cluster%4099.0.28.tgz",
+        "size": 2575018,
+        "sha256": "5216af441d1cc6916ffd24a0d600e69fbb5c8f85a88e1cf2d3bd006d05d68891"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "导航事件列表诊断测试：只读数据重绘转向，保存日志附带接口诊断；截图禁用，地图效果保留，未实车验证。",
-      "version": "99.0.25",
+      "description": "统一Regular字体与80%扁平卡片，导航中底部显示currentRoad，APP启动默认应用卡片；位置与冷启动待实测。",
+      "version": "99.0.28",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.25"
+        "waze-on-cluster": "99.0.28"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.25.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.25/robertn_waze_cluster%4099.0.25.tgz",
-        "size": 2948613,
-        "sha256": "8afad177481c54648c37794af18af03f6edd591a98f3ea0284d10dab5ad943da"
+        "name": "robertn_waze_cluster@99.0.28.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.28/robertn_waze_cluster%4099.0.28.tgz",
+        "size": 3640353,
+        "sha256": "a6cc9dfe8231c3de29f5d5dae3474e646be4e6c3561aab1a49b20e220807d817"
       }
     },
     {
