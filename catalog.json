@@ -5,8 +5,8 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（实车测试候选版）",
-      "description": "大屏1533×525保持原宽高，位置(204,96)。两侧上下局部丰满，轻微向内羽化，实车刻度间隙待确认。",
-      "version": "99.0.22",
+      "description": "大屏沿原轮廓向内约12像素羽化，中心不透明，不扩张边界；普通模式不变。",
+      "version": "99.0.29",
       "mguHmi": [
         "ID7"
       ],
@@ -15,31 +15,31 @@
         "mgu-deploy": "0.7.17"
       },
       "artifact": {
-        "name": "cluster-render@99.0.22.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.22/cluster-render%4099.0.22.tgz",
-        "size": 10449689,
-        "sha256": "ef46991bc1a402f03c77420fcd1a646e7e269b61959ee86858fba3725c641a4c"
+        "name": "cluster-render@99.0.29.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.29/cluster-render%4099.0.29.tgz",
+        "size": 10447858,
+        "sha256": "e2d6e9ec9057d87a58cf14a215f0d6a5645795d5d5088fe6af8327bdc21bb8c9"
       }
     },
     {
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "保留地图显示与自动投射，增加APP导航诊断日志导出。地图可执行文件不变。",
-      "version": "99.0.28",
+      "description": "保留地图显示与自动投射，兼容新版导航诊断日志。",
+      "version": "99.0.29",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.22"
+        "cluster-render": "99.0.29"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.28.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.28/waze-on-cluster%4099.0.28.tgz",
-        "size": 2575018,
-        "sha256": "5216af441d1cc6916ffd24a0d600e69fbb5c8f85a88e1cf2d3bd006d05d68891"
+        "name": "waze-on-cluster@99.0.29.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.29/waze-on-cluster%4099.0.29.tgz",
+        "size": 2575012,
+        "sha256": "4bc7fdd5eeeee9bd99e42871ca905de2b49b29480712c5dc2107eff9cf1ef838"
       }
     },
     {
@@ -47,20 +47,21 @@
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
       "description": "统一Regular字体与80%扁平卡片，导航中底部显示currentRoad，APP启动默认应用卡片；位置与冷启动待实测。",
-      "version": "99.0.28",
+      "version": "99.0.29",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.28"
+        "waze-on-cluster": "99.0.29",
+        "cluster-render": "99.0.29"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.28.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.28/robertn_waze_cluster%4099.0.28.tgz",
-        "size": 3640353,
-        "sha256": "a6cc9dfe8231c3de29f5d5dae3474e646be4e6c3561aab1a49b20e220807d817"
+        "name": "robertn_waze_cluster@99.0.29.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.29/robertn_waze_cluster%4099.0.29.tgz",
+        "size": 3640355,
+        "sha256": "c78ce7d1840f8d8b5720d202ad6d7d356fbe4f2ce4419bfcaac84f3a3161306f"
       }
     },
     {
