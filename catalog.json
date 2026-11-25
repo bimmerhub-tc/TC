@@ -25,8 +25,8 @@
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "保留地图显示与自动投射，增加APP导航诊断日志导出。地图可执行文件不变。",
-      "version": "99.0.30",
+      "description": "重编译地图后台；同步作者仪表/HUD唤醒调度；支持99.0.31导航诊断导出。",
+      "version": "99.0.31",
       "mguHmi": [
         "ID7"
       ],
@@ -36,32 +36,32 @@
         "cluster-render": "99.0.29"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.30.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.30/waze-on-cluster%4099.0.30.tgz",
-        "size": 2575017,
-        "sha256": "e42013fb9f513577916bae876e94ee54948a672a6b0dd9918fd9eaaee1171403"
+        "name": "waze-on-cluster@99.0.31.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.31/waze-on-cluster%4099.0.31.tgz",
+        "size": 2575074,
+        "sha256": "899870bfdb6802da6dd8b001276bb75c1d2de041a4729610b49ba0f445da192d"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "字号增大30%；当前道路双接口择优，缺失时显示导航中，结束移除自绘文字；实车待验证。",
-      "version": "99.0.30",
+      "description": "移除普通模式额外路名panel图层；白字100%不透明；查询和APP状态上报稳定性修复，实车待验证。",
+      "version": "99.0.31",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.30",
+        "waze-on-cluster": "99.0.31",
         "cluster-render": "99.0.29"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.30.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.30/robertn_waze_cluster%4099.0.30.tgz",
-        "size": 3640941,
-        "sha256": "6d16e84825d72428ac6bb69a6b5a819b38dbea7578b18fbd63fb72bac0b776b2"
+        "name": "robertn_waze_cluster@99.0.31.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.31/robertn_waze_cluster%4099.0.31.tgz",
+        "size": 3641571,
+        "sha256": "63f7379e693911eb7dea3f2c2976beab18d51fbedad6ec04791aa2a00c8fe8bc"
       }
     },
     {
