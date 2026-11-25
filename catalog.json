@@ -25,8 +25,8 @@
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "重编译地图后台；同步作者仪表/HUD唤醒调度；支持99.0.31导航诊断导出。",
-      "version": "99.0.31",
+      "description": "重编译地图后台；同步作者仪表/HUD唤醒调度；支持99.0.32导航诊断导出。",
+      "version": "99.0.32",
       "mguHmi": [
         "ID7"
       ],
@@ -36,32 +36,32 @@
         "cluster-render": "99.0.29"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.31.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.31/waze-on-cluster%4099.0.31.tgz",
-        "size": 2575074,
-        "sha256": "899870bfdb6802da6dd8b001276bb75c1d2de041a4729610b49ba0f445da192d"
+        "name": "waze-on-cluster@99.0.32.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.32/waze-on-cluster%4099.0.32.tgz",
+        "size": 2575067,
+        "sha256": "b2c70b84a1e24f8b72d980a12a51ca816a92160c94c019f241f521e76b3c81e0"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "移除普通模式额外路名panel图层；白字100%不透明；查询和APP状态上报稳定性修复，实车待验证。",
-      "version": "99.0.31",
+      "description": "导航卡片移至APP上方；一键开启关闭；到达信息与转向卡片独立100%-200%缩放。",
+      "version": "99.0.32",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.31",
+        "waze-on-cluster": "99.0.32",
         "cluster-render": "99.0.29"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.31.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.31/robertn_waze_cluster%4099.0.31.tgz",
-        "size": 3641571,
-        "sha256": "63f7379e693911eb7dea3f2c2976beab18d51fbedad6ec04791aa2a00c8fe8bc"
+        "name": "robertn_waze_cluster@99.0.32.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.32/robertn_waze_cluster%4099.0.32.tgz",
+        "size": 3642337,
+        "sha256": "d32e62ab0a7e9c37556408c27c928201e1ed24b25f004961f0feef23f3bea2c2"
       }
     },
     {
