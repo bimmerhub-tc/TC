@@ -5,8 +5,8 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（实车测试候选版）",
-      "description": "大屏沿原轮廓向内约12像素羽化，中心不透明，不扩张边界；普通模式不变。",
-      "version": "99.0.29",
+      "description": "大屏侧弧更饱满，中部保留120km/h和3000rpm刻度避让；实车待验证。",
+      "version": "99.0.33",
       "mguHmi": [
         "ID7"
       ],
@@ -15,53 +15,53 @@
         "mgu-deploy": "0.7.17"
       },
       "artifact": {
-        "name": "cluster-render@99.0.29.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.29/cluster-render%4099.0.29.tgz",
-        "size": 10447858,
-        "sha256": "e2d6e9ec9057d87a58cf14a215f0d6a5645795d5d5088fe6af8327bdc21bb8c9"
+        "name": "cluster-render@99.0.33.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.33/cluster-render%4099.0.33.tgz",
+        "size": 10451246,
+        "sha256": "763b859145dd9c4fea050e95a53096c246e16a8e91dac7224ab65d42fa0464e7"
       }
     },
     {
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "重编译地图后台；同步作者仪表/HUD唤醒调度；支持99.0.32导航诊断导出。",
-      "version": "99.0.32",
+      "description": "大屏侧弧更饱满，中部保留120km/h和3000rpm刻度避让；实车待验证。",
+      "version": "99.0.33",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.29"
+        "cluster-render": "99.0.33"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.32.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.32/waze-on-cluster%4099.0.32.tgz",
-        "size": 2575067,
-        "sha256": "b2c70b84a1e24f8b72d980a12a51ca816a92160c94c019f241f521e76b3c81e0"
+        "name": "waze-on-cluster@99.0.33.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.33/waze-on-cluster%4099.0.33.tgz",
+        "size": 2575071,
+        "sha256": "d8d82ca7bcf6498a3aeb4d330b852e7869a3818164d16deb9d5ffea9b07faaf3"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "导航卡片移至APP上方；一键开启关闭；到达信息与转向卡片独立100%-200%缩放。",
-      "version": "99.0.32",
+      "description": "大屏侧弧及刻度避让测试版；保留独立开关和独立缩放。",
+      "version": "99.0.33",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.32",
-        "cluster-render": "99.0.29"
+        "waze-on-cluster": "99.0.33",
+        "cluster-render": "99.0.33"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.32.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.32/robertn_waze_cluster%4099.0.32.tgz",
-        "size": 3642337,
-        "sha256": "d32e62ab0a7e9c37556408c27c928201e1ed24b25f004961f0feef23f3bea2c2"
+        "name": "robertn_waze_cluster@99.0.33.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.33/robertn_waze_cluster%4099.0.33.tgz",
+        "size": 3642486,
+        "sha256": "6812b3774dbef6f996b83ab9e92e0123f060691e3520f563d5f612ab5df4be78"
       }
     },
     {
