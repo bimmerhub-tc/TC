@@ -25,8 +25,8 @@
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "大屏侧弧更饱满，中部保留120km/h和3000rpm刻度避让；实车待验证。",
-      "version": "99.0.33",
+      "description": "重编译地图后台；同步作者仪表/HUD唤醒调度；支持99.0.34导航诊断导出。",
+      "version": "99.0.34",
       "mguHmi": [
         "ID7"
       ],
@@ -36,32 +36,32 @@
         "cluster-render": "99.0.33"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.33.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.33/waze-on-cluster%4099.0.33.tgz",
-        "size": 2575071,
-        "sha256": "d8d82ca7bcf6498a3aeb4d330b852e7869a3818164d16deb9d5ffea9b07faaf3"
+        "name": "waze-on-cluster@99.0.34.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.34/waze-on-cluster%4099.0.34.tgz",
+        "size": 2575076,
+        "sha256": "69cc959e9d73d0c6e5e9e42802ca7fb135949a51422b62f69790a34db1ef93f7"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "大屏侧弧及刻度避让测试版；保留独立开关和独立缩放。",
-      "version": "99.0.33",
+      "description": "统一开关和统一100%-200%缩放；按显示尺寸重绘高清卡片。道路名问题未解决。",
+      "version": "99.0.34",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.33",
+        "waze-on-cluster": "99.0.34",
         "cluster-render": "99.0.33"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.33.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.33/robertn_waze_cluster%4099.0.33.tgz",
-        "size": 3642486,
-        "sha256": "6812b3774dbef6f996b83ab9e92e0123f060691e3520f563d5f612ab5df4be78"
+        "name": "robertn_waze_cluster@99.0.34.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.34/robertn_waze_cluster%4099.0.34.tgz",
+        "size": 13085908,
+        "sha256": "813ad4fd37ebdcba5a90fd69037c9325ffbe2ba8c46294bcb0587ba7b23a2f3a"
       }
     },
     {
