@@ -25,8 +25,8 @@
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "仪表轮廓裁剪与轻微羽化；Y600底部透明保护；实车待验证。",
-      "version": "99.0.36",
+      "description": "APP启动保护与字体按需加载；载入中问题待实车验证。",
+      "version": "99.0.37",
       "mguHmi": [
         "ID7"
       ],
@@ -36,32 +36,32 @@
         "cluster-render": "99.0.36"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.36.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.36/waze-on-cluster%4099.0.36.tgz",
-        "size": 2575171,
-        "sha256": "a4e7dc77d2fca8808d1874b3cd230dcfaa30cd1feac314b071bda0ae9decfb32"
+        "name": "waze-on-cluster@99.0.37.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.37/waze-on-cluster%4099.0.37.tgz",
+        "size": 2575412,
+        "sha256": "094d520459b37a1b72848c681882317d0cae2cc04859ee053fdd6108e806cf21"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "仪表轮廓裁剪与轻微羽化；Y600底部透明保护；实车待验证。",
-      "version": "99.0.36",
+      "description": "APP启动保护与字体按需加载；载入中问题待实车验证。",
+      "version": "99.0.37",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.36",
+        "waze-on-cluster": "99.0.37",
         "cluster-render": "99.0.36"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.36.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.36/robertn_waze_cluster%4099.0.36.tgz",
-        "size": 13088224,
-        "sha256": "bb35c2e890c7acb039a4161dc62a12414cb363b8d9523e0aa79f6e7a32b17dc4"
+        "name": "robertn_waze_cluster@99.0.37.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.37/robertn_waze_cluster%4099.0.37.tgz",
+        "size": 13088554,
+        "sha256": "8a07064748622cb840dcbf5406c310fd68c67211be621208346c9197475f715d"
       }
     },
     {
