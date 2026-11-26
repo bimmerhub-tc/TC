@@ -5,8 +5,8 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（实车测试候选版）",
-      "description": "性能优化配套后台/渲染器；大屏10px羽化及肩部过渡，实车待验证。",
-      "version": "99.0.35",
+      "description": "仪表轮廓裁剪与轻微羽化；Y600底部透明保护；实车待验证。",
+      "version": "99.0.36",
       "mguHmi": [
         "ID7"
       ],
@@ -15,53 +15,53 @@
         "mgu-deploy": "0.7.17"
       },
       "artifact": {
-        "name": "cluster-render@99.0.35.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.35/cluster-render%4099.0.35.tgz",
-        "size": 10451298,
-        "sha256": "f951c0589b7b6656382658b846dced61f85c46a14eb2ec2b431350f57ee16df0"
+        "name": "cluster-render@99.0.36.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.36/cluster-render%4099.0.36.tgz",
+        "size": 10450403,
+        "sha256": "ca896c970ec68713647b1330e15ea4161506e88e2326e8b5a019515f384703c4"
       }
     },
     {
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "性能优化配套后台/渲染器；大屏10px羽化及肩部过渡，实车待验证。",
-      "version": "99.0.35",
+      "description": "仪表轮廓裁剪与轻微羽化；Y600底部透明保护；实车待验证。",
+      "version": "99.0.36",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.35"
+        "cluster-render": "99.0.36"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.35.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.35/waze-on-cluster%4099.0.35.tgz",
-        "size": 2575084,
-        "sha256": "61655fffa6070e342727aaca0ec47a1caf229fffdaf8419d755d76430b971970"
+        "name": "waze-on-cluster@99.0.36.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.36/waze-on-cluster%4099.0.36.tgz",
+        "size": 2575171,
+        "sha256": "a4e7dc77d2fca8808d1874b3cd230dcfaa30cd1feac314b071bda0ae9decfb32"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "卡片局部上传和缓存优化；统一开关、更多设置精简首页；10px柔和羽化。",
-      "version": "99.0.35",
+      "description": "仪表轮廓裁剪与轻微羽化；Y600底部透明保护；实车待验证。",
+      "version": "99.0.36",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.35",
-        "cluster-render": "99.0.35"
+        "waze-on-cluster": "99.0.36",
+        "cluster-render": "99.0.36"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.35.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.35/robertn_waze_cluster%4099.0.35.tgz",
-        "size": 13088101,
-        "sha256": "db080593c9f24d907790d93bb5a219d7536e993d2fa6dcc9ddf34d1d104b3280"
+        "name": "robertn_waze_cluster@99.0.36.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.36/robertn_waze_cluster%4099.0.36.tgz",
+        "size": 13088224,
+        "sha256": "bb35c2e890c7acb039a4161dc62a12414cb363b8d9523e0aa79f6e7a32b17dc4"
       }
     },
     {
