@@ -65,28 +65,6 @@
       }
     },
     {
-      "id": "screen-cards",
-      "kind": "tool",
-      "title": "中控导航卡片截取（测试）",
-      "description": "默认关闭，由APP明确启用后截取中控卡片；固定1920×720布局，尚未实车验证。",
-      "mguHmi": [
-        "ID7"
-      ],
-      "uninstallable": true,
-      "requires": {
-        "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.22",
-        "waze-on-cluster": "99.0.22"
-      },
-      "version": "99.0.24",
-      "artifact": {
-        "name": "screen-cards@99.0.24.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.24/screen-cards%4099.0.24.tgz",
-        "size": 25757,
-        "sha256": "20367e6d5823228358f829f49807fdc09f6b67a7813b0603ce484676111920f4"
-      }
-    },
-    {
       "id": "tc_camera_test",
       "kind": "app",
       "title": "TC摄像头请求测试",
@@ -107,6 +85,27 @@
         "size": 741328,
         "sha256": "9530ca8f7250c3fc8e642c307238ba89d0aa1f1ee1683831d584d19dd6513e88"
       }
+    },
+    {
+      "id": "ram_mic_calibration",
+      "kind": "app",
+      "title": "RAM 麦克风校准",
+      "description": "Service 风格全屏麦克风校准，支持触摸、准备条件确认、30 秒倒计时和 RAM01 结果读取。",
+      "version": "0.4.0",
+      "artifact": {
+        "name": "ram_mic_calibration@0.4.0.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/ram-mic-calibration-0.4.0/ram_mic_calibration%400.4.0.tgz",
+        "size": 942118,
+        "sha256": "5afc4a8551f4938c24b4f182afe841cc0b637a1f5d4cc156a831223bd98d31f0"
+      },
+      "requires": {},
+      "uninstallable": true,
+      "mguHmi": [
+        "ID7"
+      ],
+      "icon": "https://github.com/bimmerhub-tc/TC/releases/download/ram-mic-calibration-0.4.0/ram_mic_calibration.png",
+      "iconSha256": "75246d4f553e331e644c962ad414f1501951d41952e6c004e919f962f85955db",
+      "author": "小白151 · 小白科技杂物社"
     }
   ]
 }
