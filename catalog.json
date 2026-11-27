@@ -25,8 +25,8 @@
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "全幅地图布局、实时数字车速与挡位；导航卡片统一开关缩放；实车待验证。",
-      "version": "99.0.39",
+      "description": "修正挡位字段为订阅权限，解决39安装拒绝；实车待验证。",
+      "version": "99.0.40",
       "mguHmi": [
         "ID7"
       ],
@@ -36,32 +36,32 @@
         "cluster-render": "99.0.39"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.39.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.39/waze-on-cluster%4099.0.39.tgz",
-        "size": 2575162,
-        "sha256": "27cab48258e4a7c4a96b067e2bab65fc7f4aa1de87e2fa537314eed229b04d7d"
+        "name": "waze-on-cluster@99.0.40.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.40/waze-on-cluster%4099.0.40.tgz",
+        "size": 2575426,
+        "sha256": "3412b77a832eb8c70dd81481c39ceaba77152c86a8eff3677025aff03fdb6845"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "全幅地图布局、实时数字车速与挡位；导航卡片统一开关缩放；实车待验证。",
-      "version": "99.0.39",
+      "description": "修正挡位字段为订阅权限，解决39安装拒绝；实车待验证。",
+      "version": "99.0.40",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.39",
+        "waze-on-cluster": "99.0.40",
         "cluster-render": "99.0.39"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.39.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.39/robertn_waze_cluster%4099.0.39.tgz",
-        "size": 13090247,
-        "sha256": "cd0a0181b5ef3a54ae0a46f9df2d566ab722fe56453aa1c8a7939b87f6a97eea"
+        "name": "robertn_waze_cluster@99.0.40.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.40/robertn_waze_cluster%4099.0.40.tgz",
+        "size": 13090908,
+        "sha256": "2eda2ca2238005ffe78c5fa07cff2e89af1a603bd4217277b21bd1371efd9df0"
       }
     },
     {
