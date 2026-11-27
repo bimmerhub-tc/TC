@@ -65,28 +65,6 @@
       }
     },
     {
-      "id": "tc_camera_test",
-      "kind": "app",
-      "title": "TC摄像头请求测试",
-      "description": "独立测试：前摄/后摄/前后合成/全部视角请求与中控显示。原生解码器未改，实际视角待实车确认。",
-      "version": "0.1.1",
-      "build": "unit",
-      "mguHmi": [
-        "ID7"
-      ],
-      "uninstallable": true,
-      "requires": {
-        "iteriodev-turnview": "0.10.0",
-        "mgu-deploy": "0.7.5"
-      },
-      "artifact": {
-        "name": "tc_camera_test@0.1.1.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/tc-camera-test-0.1.1/tc_camera_test%400.1.1.tgz",
-        "size": 741328,
-        "sha256": "9530ca8f7250c3fc8e642c307238ba89d0aa1f1ee1683831d584d19dd6513e88"
-      }
-    },
-    {
       "id": "ram_mic_calibration",
       "kind": "app",
       "title": "RAM 麦克风校准",
