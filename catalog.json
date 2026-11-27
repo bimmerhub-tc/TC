@@ -5,8 +5,8 @@
       "id": "cluster-render",
       "kind": "tool",
       "title": "仪表渲染器（实车测试候选版）",
-      "description": "仪表轮廓裁剪与轻微羽化；Y600底部透明保护；实车待验证。",
-      "version": "99.0.36",
+      "description": "全幅地图布局、实时数字车速与挡位；导航卡片统一开关缩放；实车待验证。",
+      "version": "99.0.39",
       "mguHmi": [
         "ID7"
       ],
@@ -15,53 +15,53 @@
         "mgu-deploy": "0.7.17"
       },
       "artifact": {
-        "name": "cluster-render@99.0.36.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.36/cluster-render%4099.0.36.tgz",
-        "size": 10450403,
-        "sha256": "ca896c970ec68713647b1330e15ea4161506e88e2326e8b5a019515f384703c4"
+        "name": "cluster-render@99.0.39.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.39/cluster-render%4099.0.39.tgz",
+        "size": 10445440,
+        "sha256": "2d1524047acdd5829b7607ab5d90aa74dde05a6509d698e05fc50c58d53b005d"
       }
     },
     {
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（实车测试候选版）",
-      "description": "APP启动保护与字体按需加载；载入中问题待实车验证。",
-      "version": "99.0.37",
+      "description": "全幅地图布局、实时数字车速与挡位；导航卡片统一开关缩放；实车待验证。",
+      "version": "99.0.39",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "99.0.36"
+        "cluster-render": "99.0.39"
       },
       "artifact": {
-        "name": "waze-on-cluster@99.0.37.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.37/waze-on-cluster%4099.0.37.tgz",
-        "size": 2575412,
-        "sha256": "094d520459b37a1b72848c681882317d0cae2cc04859ee053fdd6108e806cf21"
+        "name": "waze-on-cluster@99.0.39.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.39/waze-on-cluster%4099.0.39.tgz",
+        "size": 2575162,
+        "sha256": "27cab48258e4a7c4a96b067e2bab65fc7f4aa1de87e2fa537314eed229b04d7d"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
       "title": "仪表地图（实车测试候选版）",
-      "description": "APP启动保护与字体按需加载；载入中问题待实车验证。",
-      "version": "99.0.37",
+      "description": "全幅地图布局、实时数字车速与挡位；导航卡片统一开关缩放；实车待验证。",
+      "version": "99.0.39",
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
       "requires": {
-        "waze-on-cluster": "99.0.37",
-        "cluster-render": "99.0.36"
+        "waze-on-cluster": "99.0.39",
+        "cluster-render": "99.0.39"
       },
       "build": "unit",
       "artifact": {
-        "name": "robertn_waze_cluster@99.0.37.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.37/robertn_waze_cluster%4099.0.37.tgz",
-        "size": 13088554,
-        "sha256": "8a07064748622cb840dcbf5406c310fd68c67211be621208346c9197475f715d"
+        "name": "robertn_waze_cluster@99.0.39.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.0.39/robertn_waze_cluster%4099.0.39.tgz",
+        "size": 13090247,
+        "sha256": "cd0a0181b5ef3a54ae0a46f9df2d566ab722fe56453aa1c8a7939b87f6a97eea"
       }
     },
     {
