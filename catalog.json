@@ -349,9 +349,9 @@
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
-      "version": "99.1.3",
+      "version": "99.1.4",
       "title": "仪表地图（新基线精简整合测试）",
-      "description": "底部路名：转向前显示即将进入，直行显示道路；导航结束撤掉文字。",
+      "description": "中区底部路名改用现有地图槽位，不再为文字申请panel；ETA上移避让。",
       "build": "unit",
       "mguHmi": [
         "ID7"
@@ -362,10 +362,10 @@
         "cluster-render": "99.1.1"
       },
       "artifact": {
-        "name": "robertn_waze_cluster@99.1.3.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.3/robertn_waze_cluster@99.1.3.tgz",
-        "size": 13125757,
-        "sha256": "05720e47834b8de43696c564cb633d8ceab2094256d686fb5686c374811f7ac6"
+        "name": "robertn_waze_cluster@99.1.4.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.4/robertn_waze_cluster@99.1.4.tgz",
+        "size": 13125771,
+        "sha256": "bad7f4c8ac6bd61ebaed328571a07d43adf419d942fd16776448309f13d275ff"
       }
     }
   ]
