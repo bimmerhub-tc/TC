@@ -349,9 +349,9 @@
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
-      "version": "99.1.2",
+      "version": "99.1.3",
       "title": "仪表地图（新基线精简整合测试）",
-      "description": "修复离开APP后全屏回中区；导航卡片后台运行、统一开关状态与缩放保存。原厂LOGO/路名仍待实车排查。",
+      "description": "底部路名：转向前显示即将进入，直行显示道路；导航结束撤掉文字。",
       "build": "unit",
       "mguHmi": [
         "ID7"
@@ -362,10 +362,10 @@
         "cluster-render": "99.1.1"
       },
       "artifact": {
-        "name": "robertn_waze_cluster@99.1.2.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.2/robertn_waze_cluster@99.1.2.tgz",
-        "size": 13124634,
-        "sha256": "04d135197351befecf09af36fe2242ad24588a439e52cebcdc73a554aa71447a"
+        "name": "robertn_waze_cluster@99.1.3.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.3/robertn_waze_cluster@99.1.3.tgz",
+        "size": 13125757,
+        "sha256": "05720e47834b8de43696c564cb633d8ceab2094256d686fb5686c374811f7ac6"
       }
     }
   ]
