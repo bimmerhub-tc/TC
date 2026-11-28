@@ -184,7 +184,7 @@
         "name": "waze-on-cluster@0.14.21.tgz",
         "size": 481741,
         "sha256": "905fbda3a2e8cc49f2988ed69372c40c28f3fde3ffb0dc9152b5ff0646b3fce7",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.1/waze-on-cluster%400.14.21.tgz"
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.5/waze-on-cluster%400.14.21.tgz"
       },
       "requires": {
         "mgu-deploy": "0.7.17",
@@ -330,7 +330,7 @@
       "kind": "tool",
       "title": "仪表渲染器（原作者新基线）",
       "description": "全屏托管地图mode1 SDF裁剪；普通模式不变。",
-      "version": "99.1.1",
+      "version": "99.1.5",
       "requires": {
         "mgu-deploy": "0.4.0"
       },
@@ -340,18 +340,18 @@
       ],
       "uninstallable": true,
       "artifact": {
-        "name": "cluster-render@99.1.1.tgz",
-        "size": 1295291,
-        "sha256": "9a079daa7f09474a56b70cc12c2ca1c8b1eca8c6830d3c2d4a1b6605d920ddd5",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.1/cluster-render%4099.1.1.tgz"
+        "name": "cluster-render@99.1.5.tgz",
+        "size": 1295282,
+        "sha256": "1ed9df723f6a8aca6a7fb1c3f186a6d8a2f0c7600be25c75989d6f1cee8c50ca",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.5/cluster-render%4099.1.5.tgz"
       }
     },
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
-      "version": "99.1.4",
+      "version": "99.1.5",
       "title": "仪表地图（新基线精简整合测试）",
-      "description": "中区底部路名改用现有地图槽位，不再为文字申请panel；ETA上移避让。",
+      "description": "全屏预留原厂LOGO区域；原厂currentRoad写入测试，无自绘路名图层。",
       "build": "unit",
       "mguHmi": [
         "ID7"
@@ -359,13 +359,13 @@
       "uninstallable": true,
       "requires": {
         "waze-on-cluster": "0.14.19",
-        "cluster-render": "99.1.1"
+        "cluster-render": "99.1.5"
       },
       "artifact": {
-        "name": "robertn_waze_cluster@99.1.4.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.4/robertn_waze_cluster@99.1.4.tgz",
-        "size": 13125771,
-        "sha256": "bad7f4c8ac6bd61ebaed328571a07d43adf419d942fd16776448309f13d275ff"
+        "name": "robertn_waze_cluster@99.1.5.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.5/robertn_waze_cluster%4099.1.5.tgz",
+        "size": 13126644,
+        "sha256": "b76e350f60c74181a53e485584cfe72d58cbe84b91a680679572085ae011acd2"
       }
     }
   ]
