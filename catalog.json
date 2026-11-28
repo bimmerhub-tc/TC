@@ -349,9 +349,9 @@
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
-      "version": "99.1.1",
+      "version": "99.1.2",
       "title": "仪表地图（新基线精简整合测试）",
-      "description": "全屏地图真实轮廓裁剪；转向与ETA统一开关缩放；配套渲染器99.1.1。",
+      "description": "修复离开APP后全屏回中区；导航卡片后台运行、统一开关状态与缩放保存。原厂LOGO/路名仍待实车排查。",
       "build": "unit",
       "mguHmi": [
         "ID7"
@@ -362,10 +362,10 @@
         "cluster-render": "99.1.1"
       },
       "artifact": {
-        "name": "robertn_waze_cluster@99.1.1.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.1/robertn_waze_cluster%4099.1.1.tgz",
-        "size": 13124210,
-        "sha256": "78f7000ff85c20f97a4707dba5a6ed9a2c8da2ed557a26029654915df0ef14f9"
+        "name": "robertn_waze_cluster@99.1.2.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.2/robertn_waze_cluster@99.1.2.tgz",
+        "size": 13124634,
+        "sha256": "04d135197351befecf09af36fe2242ad24588a439e52cebcdc73a554aa71447a"
       }
     }
   ]
