@@ -175,157 +175,6 @@
       }
     },
     {
-      "id": "cluster-render",
-      "kind": "tool",
-      "title": "仪表渲染器（原作者新基线）",
-      "description": "Draws every app's layers on the instrument cluster and the HUD, sharing the display slots and one upload budget",
-      "version": "0.8.15",
-      "artifact": {
-        "name": "cluster-render@0.8.15.tgz",
-        "size": 1290770,
-        "sha256": "2bbc5008e45d999d1d086c9edbb39300e432f4931bf12aceeb177f1d54366277",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.0/cluster-render%400.8.15.tgz"
-      },
-      "requires": {
-        "mgu-deploy": "0.4.0"
-      },
-      "mguHmi": [
-        "ID7",
-        "ID8"
-      ],
-      "uninstallable": true,
-      "texts": {
-        "ar": {
-          "title": "عارض لوحة العدادات",
-          "description": "يرسم طبقات جميع التطبيقات على لوحة العدادات وشاشة HUD، مع مشاركة خانات العرض وحصة رفع واحدة"
-        },
-        "cs": {
-          "title": "Renderer přístrojového štítu",
-          "description": "Kreslí vrstvy všech aplikací na přístrojový štít a HUD a sdílí přitom pozice na displeji a jeden společný rozpočet nahrávání"
-        },
-        "da": {
-          "title": "Instrumentpanel-renderer",
-          "description": "Tegner alle apps' lag på instrumentpanelet og HUD'en og deler visningspladserne og ét fælles uploadbudget"
-        },
-        "de": {
-          "title": "Kombi-Renderer",
-          "description": "Zeichnet die Ebenen aller Apps im Kombiinstrument und im HUD und teilt dabei die Anzeigeplätze und ein gemeinsames Upload-Budget auf"
-        },
-        "el": {
-          "title": "Μηχανή απόδοσης πίνακα οργάνων",
-          "description": "Σχεδιάζει τα επίπεδα όλων των εφαρμογών στον πίνακα οργάνων και στο HUD, μοιράζοντας τις θέσεις της οθόνης και ένα κοινό όριο μεταφόρτωσης"
-        },
-        "es-US": {
-          "title": "Renderizador del tablero",
-          "description": "Dibuja las capas de todas las apps en el tablero de instrumentos y el HUD, compartiendo los espacios de pantalla y un único presupuesto de carga"
-        },
-        "es": {
-          "title": "Renderizador del cuadro",
-          "description": "Dibuja las capas de todas las apps en el cuadro de instrumentos y el HUD, compartiendo los espacios de pantalla y un único presupuesto de carga"
-        },
-        "fi": {
-          "title": "Mittariston piirtäjä",
-          "description": "Piirtää kaikkien sovellusten tasot mittaristoon ja HUD-näyttöön ja jakaa näyttöpaikat ja yhteisen latausbudjetin"
-        },
-        "fr-CA": {
-          "title": "Rendu du combiné",
-          "description": "Dessine les calques de toutes les apps sur le combiné d'instruments et le HUD, en partageant les emplacements d'affichage et un budget de transfert commun"
-        },
-        "fr": {
-          "title": "Rendu du combiné",
-          "description": "Dessine les calques de toutes les apps sur le combiné d'instruments et le HUD, en partageant les emplacements d'affichage et un budget de transfert commun"
-        },
-        "he": {
-          "title": "מנוע התצוגה של לוח המחוונים",
-          "description": "מצייר את השכבות של כל האפליקציות בלוח המחוונים וב-HUD, תוך שיתוף משבצות התצוגה ומכסת העלאה אחת"
-        },
-        "hu": {
-          "title": "Műszerfal-megjelenítő",
-          "description": "Minden alkalmazás rétegeit megjeleníti a műszerfalon és a HUD-on, közösen használva a megjelenítési helyeket és egyetlen feltöltési keretet"
-        },
-        "id": {
-          "title": "Perender panel instrumen",
-          "description": "Menggambar lapisan setiap aplikasi di panel instrumen dan HUD, berbagi slot layar dan satu kuota unggahan"
-        },
-        "it": {
-          "title": "Renderer del quadro",
-          "description": "Disegna i livelli di tutte le app sul quadro strumenti e sull'HUD, condividendo gli slot di visualizzazione e un unico budget di trasferimento"
-        },
-        "ja": {
-          "title": "メーターレンダラー",
-          "description": "すべてのアプリのレイヤーをメーターとHUDに描画し、表示スロットと共通のアップロード枠を共有します"
-        },
-        "ko": {
-          "title": "계기판 렌더러",
-          "description": "모든 앱의 레이어를 계기판과 HUD에 그리며, 디스플레이 슬롯과 하나의 업로드 예산을 공유합니다"
-        },
-        "nb": {
-          "title": "Instrumentpanel-renderer",
-          "description": "Tegner alle appers lag i instrumentpanelet og på HUD-en og deler visningsplassene og ett felles opplastingsbudsjett"
-        },
-        "nl": {
-          "title": "Instrumentpaneel-renderer",
-          "description": "Tekent de lagen van alle apps op het instrumentpaneel en de HUD en verdeelt de weergaveplaatsen en één gedeeld uploadbudget"
-        },
-        "pl": {
-          "title": "Renderer zestawu wskaźników",
-          "description": "Rysuje warstwy wszystkich aplikacji na zestawie wskaźników i wyświetlaczu HUD, dzieląc miejsca na ekranie i jeden wspólny budżet przesyłania"
-        },
-        "pt-BR": {
-          "title": "Renderizador do painel",
-          "description": "Desenha as camadas de todos os apps no painel de instrumentos e no HUD, compartilhando as posições da tela e um único orçamento de envio"
-        },
-        "pt": {
-          "title": "Renderizador do quadrante",
-          "description": "Desenha as camadas de todas as apps no quadrante de instrumentos e no HUD, partilhando as posições do ecrã e um único orçamento de carregamento"
-        },
-        "ro": {
-          "title": "Randare bord",
-          "description": "Desenează straturile tuturor aplicațiilor pe bordul digital și pe HUD, împărțind pozițiile de afișare și un singur buget de transfer"
-        },
-        "ru": {
-          "title": "Рендерер приборной панели",
-          "description": "Отрисовывает слои всех приложений на приборной панели и HUD, распределяя места на экране и общий лимит загрузки"
-        },
-        "sk": {
-          "title": "Vykresľovanie prístrojovej dosky",
-          "description": "Vykresľuje vrstvy všetkých aplikácií na prístrojovej doske a HUD, so spoločnými zobrazovacími pozíciami a jedným spoločným limitom prenosu"
-        },
-        "sl": {
-          "title": "Izris na armaturi",
-          "description": "Izriše plasti vseh aplikacij na armaturni plošči in HUD ter si deli mesta prikaza in en skupni proračun prenosa"
-        },
-        "sv": {
-          "title": "Kombiinstrumentets renderare",
-          "description": "Ritar alla appars lager i kombiinstrumentet och på HUD:en och delar på visningsplatserna och en gemensam uppladdningsbudget"
-        },
-        "th": {
-          "title": "ตัวเรนเดอร์หน้าปัด",
-          "description": "วาดเลเยอร์ของทุกแอปบนหน้าปัดและ HUD โดยใช้ช่องแสดงผลและโควตาการอัปโหลดร่วมกัน"
-        },
-        "tr": {
-          "title": "Gösterge oluşturucu",
-          "description": "Tüm uygulamaların katmanlarını gösterge panelinde ve HUD'da çizer; ekran yuvalarını ve tek bir aktarım bütçesini paylaşır"
-        },
-        "uk": {
-          "title": "Рендерер панелі приладів",
-          "description": "Відображає шари всіх програм на панелі приладів і HUD, розподіляючи місця на екрані та спільний ліміт завантаження"
-        },
-        "vi": {
-          "title": "Trình hiển thị bảng đồng hồ",
-          "description": "Vẽ các lớp của mọi ứng dụng trên bảng đồng hồ và HUD, dùng chung các vị trí hiển thị và một hạn mức tải lên"
-        },
-        "zh-CN": {
-          "title": "仪表盘渲染器",
-          "description": "在仪表盘和 HUD 上绘制所有应用的图层，共享显示槽位和同一上传额度"
-        },
-        "zh-TW": {
-          "title": "儀表板繪製器",
-          "description": "在儀表板與 HUD 上繪製所有應用程式的圖層，共用顯示欄位與同一份上傳額度"
-        }
-      }
-    },
-    {
       "id": "waze-on-cluster",
       "kind": "tool",
       "title": "仪表地图服务（原作者新基线）",
@@ -335,7 +184,7 @@
         "name": "waze-on-cluster@0.14.21.tgz",
         "size": 481741,
         "sha256": "905fbda3a2e8cc49f2988ed69372c40c28f3fde3ffb0dc9152b5ff0646b3fce7",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.0/waze-on-cluster%400.14.21.tgz"
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.1/waze-on-cluster%400.14.21.tgz"
       },
       "requires": {
         "mgu-deploy": "0.7.17",
@@ -477,11 +326,32 @@
       }
     },
     {
+      "id": "cluster-render",
+      "kind": "tool",
+      "title": "仪表渲染器（原作者新基线）",
+      "description": "全屏托管地图mode1 SDF裁剪；普通模式不变。",
+      "version": "99.1.1",
+      "requires": {
+        "mgu-deploy": "0.4.0"
+      },
+      "mguHmi": [
+        "ID7",
+        "ID8"
+      ],
+      "uninstallable": true,
+      "artifact": {
+        "name": "cluster-render@99.1.1.tgz",
+        "size": 1295291,
+        "sha256": "9a079daa7f09474a56b70cc12c2ca1c8b1eca8c6830d3c2d4a1b6605d920ddd5",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.1/cluster-render%4099.1.1.tgz"
+      }
+    },
+    {
       "id": "robertn_waze_cluster",
       "kind": "app",
-      "version": "99.1.0",
+      "version": "99.1.1",
       "title": "仪表地图（新基线精简整合测试）",
-      "description": "基于原作者0.6.19；增加全屏位置、转向与ETA统一开关缩放；尚未实车验证。",
+      "description": "全屏地图真实轮廓裁剪；转向与ETA统一开关缩放；配套渲染器99.1.1。",
       "build": "unit",
       "mguHmi": [
         "ID7"
@@ -489,13 +359,13 @@
       "uninstallable": true,
       "requires": {
         "waze-on-cluster": "0.14.19",
-        "cluster-render": "0.8.15"
+        "cluster-render": "99.1.1"
       },
       "artifact": {
-        "name": "robertn_waze_cluster@99.1.0.tgz",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.0/robertn_waze_cluster%4099.1.0.tgz",
-        "size": 13124055,
-        "sha256": "1a0900894286f44f0282bb14d4cbcdc9f483f5d43616d7225e3c53423e621695"
+        "name": "robertn_waze_cluster@99.1.1.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.1/robertn_waze_cluster%4099.1.1.tgz",
+        "size": 13124210,
+        "sha256": "78f7000ff85c20f97a4707dba5a6ed9a2c8da2ed557a26029654915df0ef14f9"
       }
     }
   ]
