@@ -23,211 +23,6 @@
       "author": "小白151 · 小白科技杂物社"
     },
     {
-      "id": "cockpit-fullview",
-      "kind": "tool",
-      "title": "Cockpit+ FullView Companion",
-      "description": "Configures waze-on-cluster for pure 1632x720 FullView CarPlay/AMAP/Baidu map projection alongside Cockpit+ by disabling overlapping C++ speed/guidance/trip pods cleanly and reversibly",
-      "texts": {
-        "zh-CN": {
-          "title": "Cockpit+ 全屏地图伴侣工具",
-          "description": "为 Cockpit+ 自动配置全屏 1632x720 仪表地图托管环境，自动修复旧版 cluster-render.local.conf 冲突并可逆关闭重叠的 C++ 浮窗"
-        }
-      },
-      "author": "Hyperionism",
-      "version": "1.0.0",
-      "artifact": {
-        "name": "cockpit-fullview@1.0.0.tgz",
-        "size": 4191,
-        "sha256": "cd64c36cce8eb773e1beb27031ed6be8dd20d12d6ffe3f8bf756f15461bb4584",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/cockpit-plus-0.9.13/cockpit-fullview@1.0.0.tgz"
-      },
-      "uninstallable": true,
-      "mguHmi": [
-        "ID7"
-      ]
-    },
-    {
-      "id": "id7_cockpit_plus",
-      "kind": "app",
-      "title": "Cockpit+",
-      "description": "Cockpit+ for BMW iDrive 7 (KOMBI4 + HUD): smooth SDF feathered FullView 1632x668, Center Small Map releasing panel 0x203 for genuine stock right BC card (0x200) with engine-off standby rescue, raised 5AU turn card & ETA pill, and bold HUD navigation",
-      "texts": {
-        "zh-CN": {
-          "title": "Cockpit+ 驾驶舱增强",
-          "description": "BMW iDrive 7 全开源仪表全屏导航与驾驶舱套件：原生托管 1632x720 CarPlay/高德/百度全屏地图，内置 5AU 顶部车道引导、居中转向卡、底部 ETA 胶囊、无框数字车速、右侧媒体/行程/胎压卡片与 HUD 导航（简体中文界面）"
-        }
-      },
-      "version": "0.9.13",
-      "artifact": {
-        "name": "id7_cockpit_plus@0.9.13.tgz",
-        "size": 5077687,
-        "sha256": "aab72664c0aeb356ac6aadaf9117ad1b003e49181c2ed55e5f4fe777858d2fa3",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/cockpit-plus-0.9.13/id7_cockpit_plus@0.9.13.tgz"
-      },
-      "uninstallable": true,
-      "mguHmi": [
-        "ID7"
-      ],
-      "requires": {
-        "cluster-render": "2.9.4",
-        "waze-on-cluster": "2.9.2",
-        "cockpit-fullview": "1.0.0"
-      },
-      "icon": "https://github.com/bimmerhub-tc/TC/releases/download/cockpit-plus-0.9.13/id7_cockpit_plus.png",
-      "iconSha256": "86f776718f7ac82e6c6732f4a4c2a4cb3c7bc35af8db55645ed32400b5356e8a"
-    },
-    {
-      "id": "cluster-render",
-      "kind": "tool",
-      "title": "Cluster renderer",
-      "description": "Draws every app's layers on the instrument cluster and the HUD, sharing the display slots and one upload budget",
-      "version": "2.9.4",
-      "artifact": {
-        "name": "cluster-render@2.9.4.tgz",
-        "size": 13380229,
-        "sha256": "f74746f7bfb6f2ed2d2e8594d6405424ceebfefe5d6bf3196cf5e878000a3a99",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/cockpit-plus-0.9.13/cluster-render%402.9.4.tgz"
-      },
-      "requires": {
-        "mgu-deploy": "0.4.0"
-      },
-      "mguHmi": [
-        "ID7",
-        "ID8"
-      ],
-      "uninstallable": true,
-      "texts": {
-        "ar": {
-          "title": "عارض لوحة العدادات",
-          "description": "يرسم طبقات جميع التطبيقات على لوحة العدادات وشاشة HUD، مع مشاركة خانات العرض وحصة رفع واحدة"
-        },
-        "cs": {
-          "title": "Renderer přístrojového štítu",
-          "description": "Kreslí vrstvy všech aplikací na přístrojový štít a HUD a sdílí přitom pozice na displeji a jeden společný rozpočet nahrávání"
-        },
-        "da": {
-          "title": "Instrumentpanel-renderer",
-          "description": "Tegner alle apps' lag på instrumentpanelet og HUD'en og deler visningspladserne og ét fælles uploadbudget"
-        },
-        "de": {
-          "title": "Kombi-Renderer",
-          "description": "Zeichnet die Ebenen aller Apps im Kombiinstrument und im HUD und teilt dabei die Anzeigeplätze und ein gemeinsames Upload-Budget auf"
-        },
-        "el": {
-          "title": "Μηχανή απόδοσης πίνακα οργάνων",
-          "description": "Σχεδιάζει τα επίπεδα όλων των εφαρμογών στον πίνακα οργάνων και στο HUD, μοιράζοντας τις θέσεις της οθόνης και ένα κοινό όριο μεταφόρτωσης"
-        },
-        "es-US": {
-          "title": "Renderizador del tablero",
-          "description": "Dibuja las capas de todas las apps en el tablero de instrumentos y el HUD, compartiendo los espacios de pantalla y un único presupuesto de carga"
-        },
-        "es": {
-          "title": "Renderizador del cuadro",
-          "description": "Dibuja las capas de todas las apps en el cuadro de instrumentos y el HUD, compartiendo los espacios de pantalla y un único presupuesto de carga"
-        },
-        "fi": {
-          "title": "Mittariston piirtäjä",
-          "description": "Piirtää kaikkien sovellusten tasot mittaristoon ja HUD-näyttöön ja jakaa näyttöpaikat ja yhteisen latausbudjetin"
-        },
-        "fr-CA": {
-          "title": "Rendu du combiné",
-          "description": "Dessine les calques de toutes les apps sur le combiné d'instruments et le HUD, en partageant les emplacements d'affichage et un budget de transfert commun"
-        },
-        "fr": {
-          "title": "Rendu du combiné",
-          "description": "Dessine les calques de toutes les apps sur le combiné d'instruments et le HUD, en partageant les emplacements d'affichage et un budget de transfert commun"
-        },
-        "he": {
-          "title": "מנוע התצוגה של לוח המחוונים",
-          "description": "מצייר את השכבות של כל האפליקציות בלוח המחוונים וב-HUD, תוך שיתוף משבצות התצוגה ומכסת העלאה אחת"
-        },
-        "hu": {
-          "title": "Műszerfal-megjelenítő",
-          "description": "Minden alkalmazás rétegeit megjeleníti a műszerfalon és a HUD-on, közösen használva a megjelenítési helyeket és egyetlen feltöltési keretet"
-        },
-        "id": {
-          "title": "Perender panel instrumen",
-          "description": "Menggambar lapisan setiap aplikasi di panel instrumen dan HUD, berbagi slot layar dan satu kuota unggahan"
-        },
-        "it": {
-          "title": "Renderer del quadro",
-          "description": "Disegna i livelli di tutte le app sul quadro strumenti e sull'HUD, condividendo gli slot di visualizzazione e un unico budget di trasferimento"
-        },
-        "ja": {
-          "title": "メーターレンダラー",
-          "description": "すべてのアプリのレイヤーをメーターとHUDに描画し、表示スロットと共通のアップロード枠を共有します"
-        },
-        "ko": {
-          "title": "계기판 렌더러",
-          "description": "모든 앱의 레이어를 계기판과 HUD에 그리며, 디스플레이 슬롯과 하나의 업로드 예산을 공유합니다"
-        },
-        "nb": {
-          "title": "Instrumentpanel-renderer",
-          "description": "Tegner alle appers lag i instrumentpanelet og på HUD-en og deler visningsplassene og ett felles opplastingsbudsjett"
-        },
-        "nl": {
-          "title": "Instrumentpaneel-renderer",
-          "description": "Tekent de lagen van alle apps op het instrumentpaneel en de HUD en verdeelt de weergaveplaatsen en één gedeeld uploadbudget"
-        },
-        "pl": {
-          "title": "Renderer zestawu wskaźników",
-          "description": "Rysuje warstwy wszystkich aplikacji na zestawie wskaźników i wyświetlaczu HUD, dzieląc miejsca na ekranie i jeden wspólny budżet przesyłania"
-        },
-        "pt-BR": {
-          "title": "Renderizador do painel",
-          "description": "Desenha as camadas de todos os apps no painel de instrumentos e no HUD, compartilhando as posições da tela e um único orçamento de envio"
-        },
-        "pt": {
-          "title": "Renderizador do quadrante",
-          "description": "Desenha as camadas de todas as apps no quadrante de instrumentos e no HUD, partilhando as posições do ecrã e um único orçamento de carregamento"
-        },
-        "ro": {
-          "title": "Randare bord",
-          "description": "Desenează straturile tuturor aplicațiilor pe bordul digital și pe HUD, împărțind pozițiile de afișare și un singur buget de transfer"
-        },
-        "ru": {
-          "title": "Рендерер приборной панели",
-          "description": "Отрисовывает слои всех приложений на приборной панели и HUD, распределяя места на экране и общий лимит загрузки"
-        },
-        "sk": {
-          "title": "Vykresľovanie prístrojovej dosky",
-          "description": "Vykresľuje vrstvy všetkých aplikácií na prístrojovej doske a HUD, so spoločnými zobrazovacími pozíciami a jedným spoločným limitom prenosu"
-        },
-        "sl": {
-          "title": "Izris na armaturi",
-          "description": "Izriše plasti vseh aplikacij na armaturni plošči in HUD ter si deli mesta prikaza in en skupni proračun prenosa"
-        },
-        "sv": {
-          "title": "Kombiinstrumentets renderare",
-          "description": "Ritar alla appars lager i kombiinstrumentet och på HUD:en och delar på visningsplatserna och en gemensam uppladdningsbudget"
-        },
-        "th": {
-          "title": "ตัวเรนเดอร์หน้าปัด",
-          "description": "วาดเลเยอร์ของทุกแอปบนหน้าปัดและ HUD โดยใช้ช่องแสดงผลและโควตาการอัปโหลดร่วมกัน"
-        },
-        "tr": {
-          "title": "Gösterge oluşturucu",
-          "description": "Tüm uygulamaların katmanlarını gösterge panelinde ve HUD'da çizer; ekran yuvalarını ve tek bir aktarım bütçesini paylaşır"
-        },
-        "uk": {
-          "title": "Рендерер панелі приладів",
-          "description": "Відображає шари всіх програм на панелі приладів і HUD, розподіляючи місця на екрані та спільний ліміт завантаження"
-        },
-        "vi": {
-          "title": "Trình hiển thị bảng đồng hồ",
-          "description": "Vẽ các lớp của mọi ứng dụng trên bảng đồng hồ và HUD, dùng chung các vị trí hiển thị và một hạn mức tải lên"
-        },
-        "zh-CN": {
-          "title": "仪表盘渲染器",
-          "description": "在仪表盘和 HUD 上绘制所有应用的图层，共享显示槽位和同一上传额度"
-        },
-        "zh-TW": {
-          "title": "儀表板繪製器",
-          "description": "在儀表板與 HUD 上繪製所有應用程式的圖層，共用顯示欄位與同一份上傳額度"
-        }
-      }
-    },
-    {
       "id": "mgu-render",
       "kind": "tool",
       "title": "Renderer",
@@ -380,20 +175,171 @@
       }
     },
     {
+      "id": "cluster-render",
+      "kind": "tool",
+      "title": "仪表渲染器（原作者新基线）",
+      "description": "Draws every app's layers on the instrument cluster and the HUD, sharing the display slots and one upload budget",
+      "version": "0.8.15",
+      "artifact": {
+        "name": "cluster-render@0.8.15.tgz",
+        "size": 1290770,
+        "sha256": "2bbc5008e45d999d1d086c9edbb39300e432f4931bf12aceeb177f1d54366277",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.0/cluster-render%400.8.15.tgz"
+      },
+      "requires": {
+        "mgu-deploy": "0.4.0"
+      },
+      "mguHmi": [
+        "ID7",
+        "ID8"
+      ],
+      "uninstallable": true,
+      "texts": {
+        "ar": {
+          "title": "عارض لوحة العدادات",
+          "description": "يرسم طبقات جميع التطبيقات على لوحة العدادات وشاشة HUD، مع مشاركة خانات العرض وحصة رفع واحدة"
+        },
+        "cs": {
+          "title": "Renderer přístrojového štítu",
+          "description": "Kreslí vrstvy všech aplikací na přístrojový štít a HUD a sdílí přitom pozice na displeji a jeden společný rozpočet nahrávání"
+        },
+        "da": {
+          "title": "Instrumentpanel-renderer",
+          "description": "Tegner alle apps' lag på instrumentpanelet og HUD'en og deler visningspladserne og ét fælles uploadbudget"
+        },
+        "de": {
+          "title": "Kombi-Renderer",
+          "description": "Zeichnet die Ebenen aller Apps im Kombiinstrument und im HUD und teilt dabei die Anzeigeplätze und ein gemeinsames Upload-Budget auf"
+        },
+        "el": {
+          "title": "Μηχανή απόδοσης πίνακα οργάνων",
+          "description": "Σχεδιάζει τα επίπεδα όλων των εφαρμογών στον πίνακα οργάνων και στο HUD, μοιράζοντας τις θέσεις της οθόνης και ένα κοινό όριο μεταφόρτωσης"
+        },
+        "es-US": {
+          "title": "Renderizador del tablero",
+          "description": "Dibuja las capas de todas las apps en el tablero de instrumentos y el HUD, compartiendo los espacios de pantalla y un único presupuesto de carga"
+        },
+        "es": {
+          "title": "Renderizador del cuadro",
+          "description": "Dibuja las capas de todas las apps en el cuadro de instrumentos y el HUD, compartiendo los espacios de pantalla y un único presupuesto de carga"
+        },
+        "fi": {
+          "title": "Mittariston piirtäjä",
+          "description": "Piirtää kaikkien sovellusten tasot mittaristoon ja HUD-näyttöön ja jakaa näyttöpaikat ja yhteisen latausbudjetin"
+        },
+        "fr-CA": {
+          "title": "Rendu du combiné",
+          "description": "Dessine les calques de toutes les apps sur le combiné d'instruments et le HUD, en partageant les emplacements d'affichage et un budget de transfert commun"
+        },
+        "fr": {
+          "title": "Rendu du combiné",
+          "description": "Dessine les calques de toutes les apps sur le combiné d'instruments et le HUD, en partageant les emplacements d'affichage et un budget de transfert commun"
+        },
+        "he": {
+          "title": "מנוע התצוגה של לוח המחוונים",
+          "description": "מצייר את השכבות של כל האפליקציות בלוח המחוונים וב-HUD, תוך שיתוף משבצות התצוגה ומכסת העלאה אחת"
+        },
+        "hu": {
+          "title": "Műszerfal-megjelenítő",
+          "description": "Minden alkalmazás rétegeit megjeleníti a műszerfalon és a HUD-on, közösen használva a megjelenítési helyeket és egyetlen feltöltési keretet"
+        },
+        "id": {
+          "title": "Perender panel instrumen",
+          "description": "Menggambar lapisan setiap aplikasi di panel instrumen dan HUD, berbagi slot layar dan satu kuota unggahan"
+        },
+        "it": {
+          "title": "Renderer del quadro",
+          "description": "Disegna i livelli di tutte le app sul quadro strumenti e sull'HUD, condividendo gli slot di visualizzazione e un unico budget di trasferimento"
+        },
+        "ja": {
+          "title": "メーターレンダラー",
+          "description": "すべてのアプリのレイヤーをメーターとHUDに描画し、表示スロットと共通のアップロード枠を共有します"
+        },
+        "ko": {
+          "title": "계기판 렌더러",
+          "description": "모든 앱의 레이어를 계기판과 HUD에 그리며, 디스플레이 슬롯과 하나의 업로드 예산을 공유합니다"
+        },
+        "nb": {
+          "title": "Instrumentpanel-renderer",
+          "description": "Tegner alle appers lag i instrumentpanelet og på HUD-en og deler visningsplassene og ett felles opplastingsbudsjett"
+        },
+        "nl": {
+          "title": "Instrumentpaneel-renderer",
+          "description": "Tekent de lagen van alle apps op het instrumentpaneel en de HUD en verdeelt de weergaveplaatsen en één gedeeld uploadbudget"
+        },
+        "pl": {
+          "title": "Renderer zestawu wskaźników",
+          "description": "Rysuje warstwy wszystkich aplikacji na zestawie wskaźników i wyświetlaczu HUD, dzieląc miejsca na ekranie i jeden wspólny budżet przesyłania"
+        },
+        "pt-BR": {
+          "title": "Renderizador do painel",
+          "description": "Desenha as camadas de todos os apps no painel de instrumentos e no HUD, compartilhando as posições da tela e um único orçamento de envio"
+        },
+        "pt": {
+          "title": "Renderizador do quadrante",
+          "description": "Desenha as camadas de todas as apps no quadrante de instrumentos e no HUD, partilhando as posições do ecrã e um único orçamento de carregamento"
+        },
+        "ro": {
+          "title": "Randare bord",
+          "description": "Desenează straturile tuturor aplicațiilor pe bordul digital și pe HUD, împărțind pozițiile de afișare și un singur buget de transfer"
+        },
+        "ru": {
+          "title": "Рендерер приборной панели",
+          "description": "Отрисовывает слои всех приложений на приборной панели и HUD, распределяя места на экране и общий лимит загрузки"
+        },
+        "sk": {
+          "title": "Vykresľovanie prístrojovej dosky",
+          "description": "Vykresľuje vrstvy všetkých aplikácií na prístrojovej doske a HUD, so spoločnými zobrazovacími pozíciami a jedným spoločným limitom prenosu"
+        },
+        "sl": {
+          "title": "Izris na armaturi",
+          "description": "Izriše plasti vseh aplikacij na armaturni plošči in HUD ter si deli mesta prikaza in en skupni proračun prenosa"
+        },
+        "sv": {
+          "title": "Kombiinstrumentets renderare",
+          "description": "Ritar alla appars lager i kombiinstrumentet och på HUD:en och delar på visningsplatserna och en gemensam uppladdningsbudget"
+        },
+        "th": {
+          "title": "ตัวเรนเดอร์หน้าปัด",
+          "description": "วาดเลเยอร์ของทุกแอปบนหน้าปัดและ HUD โดยใช้ช่องแสดงผลและโควตาการอัปโหลดร่วมกัน"
+        },
+        "tr": {
+          "title": "Gösterge oluşturucu",
+          "description": "Tüm uygulamaların katmanlarını gösterge panelinde ve HUD'da çizer; ekran yuvalarını ve tek bir aktarım bütçesini paylaşır"
+        },
+        "uk": {
+          "title": "Рендерер панелі приладів",
+          "description": "Відображає шари всіх програм на панелі приладів і HUD, розподіляючи місця на екрані та спільний ліміт завантаження"
+        },
+        "vi": {
+          "title": "Trình hiển thị bảng đồng hồ",
+          "description": "Vẽ các lớp của mọi ứng dụng trên bảng đồng hồ và HUD, dùng chung các vị trí hiển thị và một hạn mức tải lên"
+        },
+        "zh-CN": {
+          "title": "仪表盘渲染器",
+          "description": "在仪表盘和 HUD 上绘制所有应用的图层，共享显示槽位和同一上传额度"
+        },
+        "zh-TW": {
+          "title": "儀表板繪製器",
+          "description": "在儀表板與 HUD 上繪製所有應用程式的圖層，共用顯示欄位與同一份上傳額度"
+        }
+      }
+    },
+    {
       "id": "waze-on-cluster",
       "kind": "tool",
-      "title": "Maps on cluster",
+      "title": "仪表地图服务（原作者新基线）",
       "description": "Runs the cluster map in the background. It is installed with the Maps on cluster app, which you use to control it.",
-      "version": "2.9.2",
+      "version": "0.14.21",
       "artifact": {
-        "name": "waze-on-cluster@2.9.2.tgz",
-        "size": 2890085,
-        "sha256": "69b682be0a4818f29cd352901b444a4ebb2863c54143c04b4d605a20d4fcac8d",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/cockpit-plus-0.9.13/waze-on-cluster%402.9.2.tgz"
+        "name": "waze-on-cluster@0.14.21.tgz",
+        "size": 481741,
+        "sha256": "905fbda3a2e8cc49f2988ed69372c40c28f3fde3ffb0dc9152b5ff0646b3fce7",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.0/waze-on-cluster%400.14.21.tgz"
       },
       "requires": {
         "mgu-deploy": "0.7.17",
-        "cluster-render": "2.9.4"
+        "cluster-render": "0.5.3"
       },
       "mguHmi": [
         "ID7"
@@ -533,155 +479,24 @@
     {
       "id": "robertn_waze_cluster",
       "kind": "app",
-      "title": "Maps on cluster",
-      "description": "Shows the CarPlay or Android Auto map on the instrument cluster, and on the HUD if you choose. On supported cars it turns on by itself after you install it and restart the head unit.",
-      "version": "0.6.17",
-      "artifact": {
-        "name": "robertn_waze_cluster@0.6.17.tgz",
-        "size": 95684,
-        "sha256": "8de67629b85b5f6e894e83b1fa5342c09ab4e6689c839b6c79813454339cfd30",
-        "url": "https://github.com/bimmerhub-tc/TC/releases/download/cockpit-plus-0.9.13/robertn_waze_cluster%400.6.17.tgz"
-      },
+      "version": "99.1.0",
+      "title": "仪表地图（新基线精简整合测试）",
+      "description": "基于原作者0.6.19；增加全屏位置、转向与ETA统一开关缩放；尚未实车验证。",
       "build": "unit",
-      "requires": {
-        "waze-on-cluster": "2.9.2"
-      },
       "mguHmi": [
         "ID7"
       ],
       "uninstallable": true,
-      "texts": {
-        "ar": {
-          "title": "الخرائط على لوحة العدادات",
-          "description": "يعرض خريطة CarPlay أو Android Auto على لوحة العدادات، وعلى HUD إذا اخترت ذلك. في السيارات المدعومة يعمل تلقائيًا بعد تثبيته وإعادة تشغيل الوحدة الرئيسية."
-        },
-        "cs": {
-          "title": "Mapy na přístrojovém štítu",
-          "description": "Zobrazí mapu CarPlay nebo Android Auto na přístrojovém štítu a podle volby i na HUD. U podporovaných vozů se zapne sám po instalaci a restartu hlavní jednotky."
-        },
-        "da": {
-          "title": "Kort i instrumentpanelet",
-          "description": "Viser CarPlay- eller Android Auto-kortet i instrumentpanelet og, hvis du vælger det, på HUD. På understøttede biler slår det sig selv til, når du har installeret det og genstartet hovedenheden."
-        },
-        "de": {
-          "title": "Karten im Kombiinstrument",
-          "description": "Zeigt die CarPlay- oder Android-Auto-Karte im Kombiinstrument und auf Wunsch im HUD. Bei unterstützten Fahrzeugen schaltet sie sich nach der Installation und einem Neustart der Headunit von selbst ein."
-        },
-        "el": {
-          "title": "Χάρτες στα όργανα",
-          "description": "Εμφανίζει τον χάρτη του CarPlay ή του Android Auto στα όργανα και, αν το επιλέξετε, στο HUD. Στα υποστηριζόμενα αυτοκίνητα ενεργοποιείται μόνο του μετά την εγκατάσταση και την επανεκκίνηση της μονάδας."
-        },
-        "es-US": {
-          "title": "Mapas en el tablero",
-          "description": "Muestra el mapa de CarPlay o Android Auto en el tablero de instrumentos y, si lo eliges, en el HUD. En los autos compatibles se activa solo después de instalarlo y reiniciar la unidad principal."
-        },
-        "es": {
-          "title": "Mapas en el cuadro",
-          "description": "Muestra el mapa de CarPlay o Android Auto en el cuadro de instrumentos y, si lo eliges, en el HUD. En los coches compatibles se activa solo tras instalarlo y reiniciar la unidad principal."
-        },
-        "fi": {
-          "title": "Kartat mittaristossa",
-          "description": "Näyttää CarPlayn tai Android Auton kartan mittaristossa ja halutessasi HUD-näytössä. Tuetuissa autoissa se kytkeytyy päälle itsestään asennuksen ja pääyksikön uudelleenkäynnistyksen jälkeen."
-        },
-        "fr-CA": {
-          "title": "Cartes au combiné",
-          "description": "Affiche la carte CarPlay ou Android Auto sur le combiné d'instruments et, si vous le souhaitez, sur le HUD. Sur les véhicules pris en charge, elle s'active d'elle-même après l'installation et un redémarrage du système."
-        },
-        "fr": {
-          "title": "Cartes au combiné",
-          "description": "Affiche la carte CarPlay ou Android Auto sur le combiné d'instruments et, si vous le souhaitez, sur le HUD. Sur les véhicules pris en charge, elle s'active d'elle-même après l'installation et un redémarrage du système."
-        },
-        "he": {
-          "title": "מפות בלוח המחוונים",
-          "description": "מציג את המפה של CarPlay או Android Auto בלוח המחוונים, וב-HUD אם תבחרו. ברכבים נתמכים היא מופעלת מעצמה לאחר ההתקנה והפעלה מחדש של המערכת."
-        },
-        "hu": {
-          "title": "Térkép a műszerfalon",
-          "description": "Megjeleníti a CarPlay vagy Android Auto térképet a műszerfalon, és ha kéri, a HUD-on is. Támogatott autókon a telepítés és a fejegység újraindítása után magától bekapcsol."
-        },
-        "id": {
-          "title": "Peta di panel instrumen",
-          "description": "Menampilkan peta CarPlay atau Android Auto di panel instrumen, dan di HUD jika Anda memilihnya. Pada mobil yang didukung, peta aktif dengan sendirinya setelah dipasang dan head unit dimulai ulang."
-        },
-        "it": {
-          "title": "Mappe sul quadro",
-          "description": "Mostra la mappa di CarPlay o Android Auto sul quadro strumenti e, se vuoi, sull'HUD. Sulle auto supportate si attiva da sola dopo l'installazione e il riavvio del sistema."
-        },
-        "ja": {
-          "title": "地図 メーター表示",
-          "description": "CarPlay または Android Auto の地図をメーターに表示します。選べば HUD にも表示します。対応車両では、インストールしてヘッドユニットを再起動すると自動でオンになります。"
-        },
-        "ko": {
-          "title": "지도 계기판 표시",
-          "description": "CarPlay 또는 Android Auto 지도를 계기판에 표시하고, 선택하면 HUD에도 표시합니다. 지원되는 차량에서는 설치 후 헤드 유닛을 재시작하면 자동으로 켜집니다."
-        },
-        "nb": {
-          "title": "Kart i instrumentpanelet",
-          "description": "Viser CarPlay- eller Android Auto-kartet i instrumentpanelet og, om du vil, på HUD. På støttede biler slår det seg på av seg selv etter installering og omstart av hovedenheten."
-        },
-        "nl": {
-          "title": "Kaarten in instrumentpaneel",
-          "description": "Toont de CarPlay- of Android Auto-kaart in het instrumentpaneel en, als je dat kiest, op de HUD. Op ondersteunde auto's gaat hij vanzelf aan na de installatie en een herstart van de headunit."
-        },
-        "pl": {
-          "title": "Mapy na zegarach",
-          "description": "Wyświetla mapę CarPlay lub Android Auto na zegarach, a jeśli wybierzesz, także na HUD. W obsługiwanych autach włącza się sama po instalacji i ponownym uruchomieniu jednostki głównej."
-        },
-        "pt-BR": {
-          "title": "Mapas no painel",
-          "description": "Mostra o mapa do CarPlay ou do Android Auto no painel de instrumentos e, se você quiser, no HUD. Em carros compatíveis, liga sozinho depois de instalar e reiniciar a unidade principal."
-        },
-        "pt": {
-          "title": "Mapas no quadrante",
-          "description": "Mostra o mapa do CarPlay ou do Android Auto no quadrante e, se quiser, no HUD. Em carros compatíveis, liga-se sozinho depois de o instalar e reiniciar a unidade principal."
-        },
-        "ro": {
-          "title": "Hărți pe bord",
-          "description": "Afișează harta CarPlay sau Android Auto pe bord și, dacă alegeți, pe HUD. Pe mașinile compatibile pornește singură după instalare și repornirea unității."
-        },
-        "ru": {
-          "title": "Карты на приборах",
-          "description": "Показывает карту CarPlay или Android Auto на приборной панели, а по желанию — на HUD. На поддерживаемых автомобилях включается сама после установки и перезапуска головного устройства."
-        },
-        "sk": {
-          "title": "Mapy na prístrojovke",
-          "description": "Zobrazí mapu CarPlay alebo Android Auto na prístrojovom paneli a podľa voľby aj na HUD. Na podporovaných autách sa zapne sám po inštalácii a reštarte jednotky."
-        },
-        "sl": {
-          "title": "Zemljevidi na armaturi",
-          "description": "Prikaže zemljevid CarPlay ali Android Auto na armaturi in po želji na HUD. Na podprtih avtomobilih se vklopi sam po namestitvi in ponovnem zagonu enote."
-        },
-        "sv": {
-          "title": "Kartor i kombiinstrumentet",
-          "description": "Visar CarPlay- eller Android Auto-kartan i kombiinstrumentet och, om du vill, på HUD. På bilar som stöds slås den på av sig själv efter installationen och en omstart av huvudenheten."
-        },
-        "th": {
-          "title": "แผนที่บนหน้าปัด",
-          "description": "แสดงแผนที่ CarPlay หรือ Android Auto บนหน้าปัด และบน HUD หากคุณเลือก ในรถที่รองรับ จะเปิดใช้งานเองหลังติดตั้งและรีสตาร์ทเฮดยูนิต"
-        },
-        "tr": {
-          "title": "Haritalar göstergede",
-          "description": "CarPlay veya Android Auto haritasını göstergede, isterseniz HUD'da da gösterir. Desteklenen araçlarda kurulumdan ve ana ünitenin yeniden başlatılmasından sonra kendiliğinden açılır."
-        },
-        "uk": {
-          "title": "Карти на приладах",
-          "description": "Показує карту CarPlay або Android Auto на приладовій панелі, а за бажанням — на HUD. На підтримуваних автомобілях вмикається сама після встановлення та перезапуску головного пристрою."
-        },
-        "vi": {
-          "title": "Bản đồ trên bảng đồng hồ",
-          "description": "Hiển thị bản đồ CarPlay hoặc Android Auto trên bảng đồng hồ, và trên HUD nếu bạn chọn. Trên xe được hỗ trợ, tự bật sau khi cài đặt và khởi động lại hệ thống."
-        },
-        "zh-CN": {
-          "title": "地图仪表盘显示",
-          "description": "在仪表盘上显示 CarPlay 或 Android Auto 地图，也可选择显示在 HUD 上。在支持的车辆上，安装并重启主机后自动开启。"
-        },
-        "zh-TW": {
-          "title": "地圖儀表板顯示",
-          "description": "在儀表板上顯示 CarPlay 或 Android Auto 地圖，也可選擇顯示在 HUD 上。在支援的車輛上，安裝並重新啟動主機後自動開啟。"
-        }
+      "requires": {
+        "waze-on-cluster": "0.14.19",
+        "cluster-render": "0.8.15"
       },
-      "icon": "https://github.com/bimmerhub-tc/TC/releases/download/cockpit-plus-0.9.13/robertn_waze_cluster.png",
-      "iconSha256": "d12bfc8fdbf591b938ba602c802f2829673345fca665e03cb629cd22daf9d087"
+      "artifact": {
+        "name": "robertn_waze_cluster@99.1.0.tgz",
+        "url": "https://github.com/bimmerhub-tc/TC/releases/download/99.1.0/robertn_waze_cluster%4099.1.0.tgz",
+        "size": 13124055,
+        "sha256": "1a0900894286f44f0282bb14d4cbcdc9f483f5d43616d7225e3c53423e621695"
+      }
     }
   ]
 }
